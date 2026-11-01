@@ -1,0 +1,68 @@
+#!/bin/sh
+
+### BEGIN INIT INFO
+# Provides:          aic-wifi
+# Required-Start:    $local_fs
+# Default-Start:     S
+# Default-Stop:
+### END INIT INFO
+
+case "$1" in
+  start)
+    [ -s /etc/wpa_supplicant.conf ] || {
+      echo "AIC8800: WiFi profile missing; install a private /etc/wpa_supplicant.conf"
+      exit 0
+    }
+    # The rootfs and the running kernel can have the same release but different
+    # configurations. Do not load the WiFi driver into the old demo kernel.
+    if ! grep -q ' cfg80211_scan_done$' /proc/kallsyms; then
+      echo "AIC8800: running kernel lacks cfg80211; install the matching WiFi-enabled uImage.lz4"
+      exit 1
+    fi
+    MODDIR=/lib/modules/6.1.111-rt42/extra
+    FWDIR=/lib/firmware/aic8800D80
+    [ -r "$FWDIR/fw_patch_table_8800d80_u02.bin" ] || {
+      echo "AIC8800: missing firmware in $FWDIR"
+      exit 1
+    }
+    mkdir -p /vendor/etc
+    [ -e /vendor/etc/firmware ] || ln -s "$FWDIR" /vendor/etc/firmware || exit 1
+    [ -e /sys/module/aic_load_fw ] || insmod "$MODDIR/aic_load_fw.ko" aic_fw_path="$FWDIR" || exit 1
+    [ -e /sys/module/aic8800_fdrv ] || insmod "$MODDIR/aic8800_fdrv.ko" || exit 1
+
+    # The USB WiFi adapter may enumerate a moment after the module is loaded.
+    n=0
+    while [ "$n" -lt 15 ]; do
+      for net in /sys/class/net/*; do
+        [ -d "$net/wireless" ] || continue
+        IFACE=${net##*/}
+        break
+      done
+      [ -n "$IFACE" ] && break
+      n=$((n + 1))
+      sleep 1
+    done
+    [ -n "$IFACE" ] || { echo "AIC8800: no wireless interface found"; exit 1; }
+
+    ifconfig "$IFACE" up || exit 1
+    # CFG80211_WEXT is disabled in the SDK kernel; use the nl80211 backend.
+    wpa_supplicant -B -P /run/boat-wifi.pid -i "$IFACE" -c /etc/wpa_supplicant.conf -D nl80211 || exit 1
+    # S41dhcpcd owns address assignment; do not start a second DHCP client.
+    ;;
+  stop)
+    if [ -s /run/boat-wifi.pid ]; then
+      kill "$(cat /run/boat-wifi.pid)" 2>/dev/null || true
+      rm -f /run/boat-wifi.pid
+    fi
+    ;;
+  restart)
+    "$0" stop
+    "$0" start
+    ;;
+  *)
+    echo "Usage: $0 {start|stop|restart}"
+    exit 1
+    ;;
+esac
+
+exit 0

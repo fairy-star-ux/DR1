@@ -1,0 +1,34 @@
+#!/bin/sh
+
+case "$1" in
+  start)
+    mkdir -p /run /var/log /var/lib/boat-web/photos
+    [ -x /usr/local/bin/camera_capture ] || echo "boat-web: camera_capture is missing"
+    export MOTOR_SERIAL_PORT=${MOTOR_SERIAL_PORT:-/dev/ttyUSB0}
+    export GPS_SERIAL_PORT=${GPS_SERIAL_PORT:-/dev/ttyUSB1}
+    export CAMERA_DEVICE=${CAMERA_DEVICE:-/dev/video0}
+    export CAMERA_CAPTURE=${CAMERA_CAPTURE:-/usr/local/bin/camera_capture}
+    export PHOTO_DIR=${PHOTO_DIR:-/var/lib/boat-web/photos}
+    # Set FPGA_SERVO_MMIO_BASE only after the generated FD AXI address map is known.
+    [ -r /etc/default/boat-web ] && . /etc/default/boat-web
+    export FPGA_SERVO_MMIO_BASE
+    /usr/bin/python3 /usr/local/bin/boat_web_server.py >>/var/log/boat-web.log 2>&1 &
+    echo $! >/run/boat-web.pid
+    ;;
+  stop)
+    if [ -s /run/boat-web.pid ]; then
+      kill "$(cat /run/boat-web.pid)" 2>/dev/null || true
+      rm -f /run/boat-web.pid
+    fi
+    ;;
+  restart)
+    "$0" stop
+    "$0" start
+    ;;
+  *)
+    echo "Usage: $0 {start|stop|restart}"
+    exit 1
+    ;;
+esac
+
+exit 0

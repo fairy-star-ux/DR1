@@ -1,0 +1,2017 @@
+[
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system_top.v",
+    "target": "fpga/td/uisrc/01_rtl/system_top.v",
+    "source_sha256": "7dc9048e907fead5517dc312ac10a62c811a6549b5398f8a567f1e68b5a565d7"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/04_pin/fpga_pin.adc",
+    "target": "fpga/td/uisrc/04_pin/fpga_pin.adc",
+    "source_sha256": "d97a68668a27658d085631172f9aa7758a7a901dd4e8484edb98f7bc29a2d781"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/04_pin/timing.sdc",
+    "target": "fpga/td/uisrc/04_pin/timing.sdc",
+    "source_sha256": "b16e4e6b88c213d817fa4a25bc55d79c5be41d8bf96aedd1144e8d5acf226e0a"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/boat/boat_top.v",
+    "target": "fpga/td/uisrc/01_rtl/boat/boat_top.v",
+    "source_sha256": "618edbef3442ac8bb6069ccec7563437949a70ee2a8d9a15cdb1cb07e636f712"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/boat/key_filter.v",
+    "target": "fpga/td/uisrc/01_rtl/boat/key_filter.v",
+    "source_sha256": "6815fd5da19b589c56c1c6b335eca363d88b5d6c5adb136f3a84f33640561f65"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/boat/motor_pwm_dual.v",
+    "target": "fpga/td/uisrc/01_rtl/boat/motor_pwm_dual.v",
+    "source_sha256": "a15898fdc3714670b7af57e188204c9637daef3edc5addff96844ecb9cbc01f2"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/boat/pll_test.v",
+    "target": "fpga/td/uisrc/01_rtl/boat/pll_test.v",
+    "source_sha256": "a7f182bfe3712d906d2cf3fe2df931603c75776d5063fe15f3abad6ba7bce476"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/boat/reset_sync.v",
+    "target": "fpga/td/uisrc/01_rtl/boat/reset_sync.v",
+    "source_sha256": "f42622662151227fd09625d9c48ea93b7d9c3638a6c268f7d2433b0c523d1896"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/boat/servo_control_gp0_axi.v",
+    "target": "fpga/td/uisrc/01_rtl/boat/servo_control_gp0_axi.v",
+    "source_sha256": "8f272315ad8d3fa909dde57d8eed86fac2060c252f73ac261e94cbf85432279f"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/boat/servo_pwm.v",
+    "target": "fpga/td/uisrc/01_rtl/boat/servo_pwm.v",
+    "source_sha256": "a54c4cf7d9cc2c37e43906adb9e6de3330b1d742b9ef8d6d3294edf9e7348ee4"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/boat/servo_scan.v",
+    "target": "fpga/td/uisrc/01_rtl/boat/servo_scan.v",
+    "source_sha256": "94b0cabf64bf3a424b725cf4f9f6b02b26a5c1d8267debc180a178d871e78277"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/boat/ultrasonic_measure.v",
+    "target": "fpga/td/uisrc/01_rtl/boat/ultrasonic_measure.v",
+    "source_sha256": "192bae1af9deb83b518a8b371e493f21a03ae23da3abfe98ddb9c3175a78e155"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/Design.xml",
+    "target": "fpga/td/uisrc/01_rtl/system/Design.xml",
+    "source_sha256": "39d5e165d26094c820164ea36f8db3baa9b4f2dabc27496527611d9194ef9b27"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/system.address.xml",
+    "target": "fpga/td/uisrc/01_rtl/system/system.address.xml",
+    "source_sha256": "15605ad838ab637c82456483fb07b4b3f946984067e1bf8c7e10839ee9d4a63d"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/system.info.xml",
+    "target": "fpga/td/uisrc/01_rtl/system/system.info.xml",
+    "source_sha256": "f1cb16ef586bbc49b37dd5d4760f45afccecc6bd6518adfe7bbc14f8cbf0d19e"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/system.xml",
+    "target": "fpga/td/uisrc/01_rtl/system/system.xml",
+    "source_sha256": "ad2d830e65b15305b4f91a37bedca7a5bf84a3479c7e7d2fd4171c6168f2deab"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/hdl/system.v",
+    "target": "fpga/td/uisrc/01_rtl/system/hdl/system.v",
+    "source_sha256": "b4a41d9467004b8ac2da51f53dc0c1d977605d92b6c18e59e2f09f724c70b442"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/ui/system.ui.xml",
+    "target": "fpga/td/uisrc/01_rtl/system/ui/system.ui.xml",
+    "source_sha256": "ed6259aed213ea69c2b80058b57bc6049ed87b8abf42793d49984727c857eaf8"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/ip/system_ARM_Processor_System_0/.m_params_system_ARM_Processor_System_0.txt",
+    "target": "fpga/td/uisrc/01_rtl/system/ip/system_ARM_Processor_System_0/.m_params_system_ARM_Processor_System_0.txt",
+    "source_sha256": "9b97c39543bcd7abcac5a5b4a0ea2320437e9dd465e62a9e50a42cf67faa9711"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/ip/system_ARM_Processor_System_0/.ports_system_ARM_Processor_System_0.txt",
+    "target": "fpga/td/uisrc/01_rtl/system/ip/system_ARM_Processor_System_0/.ports_system_ARM_Processor_System_0.txt",
+    "source_sha256": "8194fd753a0792aeee009cce45efae096d254c02d73d50fbd3f7f85d649e412d"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/ip/system_ARM_Processor_System_0/Design.xml",
+    "target": "fpga/td/uisrc/01_rtl/system/ip/system_ARM_Processor_System_0/Design.xml",
+    "source_sha256": "3bcf66f5ac298d8acb1fb83f6cf390c5a4a983294661b29a6633869b0f61da21"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/ip/system_ARM_Processor_System_0/DesignConfiguration.xml",
+    "target": "fpga/td/uisrc/01_rtl/system/ip/system_ARM_Processor_System_0/DesignConfiguration.xml",
+    "source_sha256": "9585b82e9eb7d12e6c720574f6640ddd033f2aa083d4e53431c0fbce104ce108"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/ip/system_ARM_Processor_System_0/DesignTmp.xml",
+    "target": "fpga/td/uisrc/01_rtl/system/ip/system_ARM_Processor_System_0/DesignTmp.xml",
+    "source_sha256": "502839a8859c33d177f737243ba639aa29e4f799d4b9367a87afd05fba0a3da5"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/ip/system_ARM_Processor_System_0/GuiFinal.xml",
+    "target": "fpga/td/uisrc/01_rtl/system/ip/system_ARM_Processor_System_0/GuiFinal.xml",
+    "source_sha256": "871ed6f0f97683220e153402209b69018c38a31ee58b1bb18cbf8773dae76c0d"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/ip/system_ARM_Processor_System_0/system_ARM_Processor_System_0.sdc",
+    "target": "fpga/td/uisrc/01_rtl/system/ip/system_ARM_Processor_System_0/system_ARM_Processor_System_0.sdc",
+    "source_sha256": "743491fb8cb6e82da06db9b144a09d6ba4d842b110f5a3bbd75ae161befbaa54"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/ip/system_ARM_Processor_System_0/system_ARM_Processor_System_0.tcl",
+    "target": "fpga/td/uisrc/01_rtl/system/ip/system_ARM_Processor_System_0/system_ARM_Processor_System_0.tcl",
+    "source_sha256": "31b91a9a9443093903fabf35129648c6dd00e67dd15f3efeb2f6383158ca10f2"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/ip/system_ARM_Processor_System_0/system_ARM_Processor_System_0.v",
+    "target": "fpga/td/uisrc/01_rtl/system/ip/system_ARM_Processor_System_0/system_ARM_Processor_System_0.v",
+    "source_sha256": "710d3ca650619608045f0342e870b2131d5ba603c95ba2710c471b42366a8ed9"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/ip/system_ARM_Processor_System_0/system_ARM_Processor_System_0.xml",
+    "target": "fpga/td/uisrc/01_rtl/system/ip/system_ARM_Processor_System_0/system_ARM_Processor_System_0.xml",
+    "source_sha256": "1ea351d82ea5cebfc336f374ea7e0400dd0fbe9157757e2942f5849eab5994c4"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/ip/system_ARM_Processor_System_0/RTL/ARM_Processor_System_cb19c917a74f.v",
+    "target": "fpga/td/uisrc/01_rtl/system/ip/system_ARM_Processor_System_0/RTL/ARM_Processor_System_cb19c917a74f.v",
+    "source_sha256": "e4fa6486505b7c287a295ffd2b0652a1efcbc474695778e85ec23a15d8440960"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/ip/system_ARM_Processor_System_0/RTL/ARM_Processor_System_system_ARM_Processor_System_0.v",
+    "target": "fpga/td/uisrc/01_rtl/system/ip/system_ARM_Processor_System_0/RTL/ARM_Processor_System_system_ARM_Processor_System_0.v",
+    "source_sha256": "209c6a38fd019888b873266d27a8f05490b5c81a51ab04e9287d1afb091d8b27"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/ip/system_ARM_Processor_System_0/RTL/include/define.v",
+    "target": "fpga/td/uisrc/01_rtl/system/ip/system_ARM_Processor_System_0/RTL/include/define.v",
+    "source_sha256": "da96b5dff203a2a9581a69ca9b874584468079d8cb0ae4d1160740001c7a13a0"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_1/.m_params_system_ARM_Processor_System_0.txt",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_1/.m_params_system_ARM_Processor_System_0.txt",
+    "source_sha256": "61e041886b2960393d761eebfd5c429d825d34980fbf5bf5d811a35f9c8acd13"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_1/.ports_system_ARM_Processor_System_0.txt",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_1/.ports_system_ARM_Processor_System_0.txt",
+    "source_sha256": "27db57d3f8449d4a04ece9f0ff19cc17cb05de11298bd8f0356f3f17e32aed25"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_1/ARM_Processor_System_cb19c917a74f.v",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_1/ARM_Processor_System_cb19c917a74f.v",
+    "source_sha256": "277e42fac7f63ba874f1067f0becd1f768bd6fcda495ccbd16abaced03202b22"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_1/Design.xml",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_1/Design.xml",
+    "source_sha256": "fb67ad80f14f273499609a1fffa73160b407a5ec2721fcaad06fe1dee0cd3725"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_1/DesignConfiguration.xml",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_1/DesignConfiguration.xml",
+    "source_sha256": "9585b82e9eb7d12e6c720574f6640ddd033f2aa083d4e53431c0fbce104ce108"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_1/DesignTmp.xml",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_1/DesignTmp.xml",
+    "source_sha256": "19a5f2d3f7b9a2928cdd402c616c2fe143e6aa4e20f4be0e7f2ec5370cf23a81"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_1/GuiFinal.xml",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_1/GuiFinal.xml",
+    "source_sha256": "6f89e5d8e6d17314e54e9fe6bd6dc2269a5b5f2e40b47c355437f16d61da20a0"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_1/system_ARM_Processor_System_0.v",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_1/system_ARM_Processor_System_0.v",
+    "source_sha256": "d79b831366c5160d38f01d4668354f71178886bbfe0c7f86d5ca589a1aff932b"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_1/system_ARM_Processor_System_0.xml",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_1/system_ARM_Processor_System_0.xml",
+    "source_sha256": "819399f02d43e3f6c099135361d689f63a752276471db59bea30fb6b501e2988"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_2/.m_params_system_ARM_Processor_System_0.txt",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_2/.m_params_system_ARM_Processor_System_0.txt",
+    "source_sha256": "61e041886b2960393d761eebfd5c429d825d34980fbf5bf5d811a35f9c8acd13"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_2/.ports_system_ARM_Processor_System_0.txt",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_2/.ports_system_ARM_Processor_System_0.txt",
+    "source_sha256": "27db57d3f8449d4a04ece9f0ff19cc17cb05de11298bd8f0356f3f17e32aed25"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_2/ARM_Processor_System_cb19c917a74f.v",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_2/ARM_Processor_System_cb19c917a74f.v",
+    "source_sha256": "277e42fac7f63ba874f1067f0becd1f768bd6fcda495ccbd16abaced03202b22"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_2/Design.xml",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_2/Design.xml",
+    "source_sha256": "b38b0d30bd7259664871c5587330afc1d4d7bf6b7550dff55021dbba6d39c5d6"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_2/DesignConfiguration.xml",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_2/DesignConfiguration.xml",
+    "source_sha256": "9585b82e9eb7d12e6c720574f6640ddd033f2aa083d4e53431c0fbce104ce108"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_2/DesignTmp.xml",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_2/DesignTmp.xml",
+    "source_sha256": "6e7ea6a52776b457d42bc463988b99469bb846cba42b5cf3a7b9b2d4a65d7931"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_2/GuiFinal.xml",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_2/GuiFinal.xml",
+    "source_sha256": "9d53b73efd14818b58d20fec54fecca3734e5af36b5c0a12ab3de5905692131b"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_2/system_ARM_Processor_System_0.v",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_2/system_ARM_Processor_System_0.v",
+    "source_sha256": "90799c948dd259900fe96b0f1b8970bced27212d9badba08d2c146087f9d2065"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_2/system_ARM_Processor_System_0.xml",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_2/system_ARM_Processor_System_0.xml",
+    "source_sha256": "819399f02d43e3f6c099135361d689f63a752276471db59bea30fb6b501e2988"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_3/.m_params_system_ARM_Processor_System_0.txt",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_3/.m_params_system_ARM_Processor_System_0.txt",
+    "source_sha256": "6e88ef99eefda08eb322c2b4121b9039c5029314d0b3293b05958b0831dd82d9"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_3/.ports_system_ARM_Processor_System_0.txt",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_3/.ports_system_ARM_Processor_System_0.txt",
+    "source_sha256": "8010b1e9c7854e9526662d13907f7e5e0c3e89ec421b1d73b979d2ccf011a5a9"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_3/Design.xml",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_3/Design.xml",
+    "source_sha256": "97e5bfdab621365733e25c5d188d196570bdd02efaaa4774952e67457dd27ceb"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_3/DesignConfiguration.xml",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_3/DesignConfiguration.xml",
+    "source_sha256": "9585b82e9eb7d12e6c720574f6640ddd033f2aa083d4e53431c0fbce104ce108"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_3/DesignTmp.xml",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_3/DesignTmp.xml",
+    "source_sha256": "e56385d8f1fc319b3a4aba011196ce6e101c7b0d3ca2a2105df714cf2f08c208"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_3/GuiFinal.xml",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_3/GuiFinal.xml",
+    "source_sha256": "b82634963c972b9311f1ab898baaf4189d206920d1b7411f4a8edb2f7c9fd6a2"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_3/system_ARM_Processor_System_0.tcl",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_3/system_ARM_Processor_System_0.tcl",
+    "source_sha256": "31b91a9a9443093903fabf35129648c6dd00e67dd15f3efeb2f6383158ca10f2"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_3/system_ARM_Processor_System_0.v",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_3/system_ARM_Processor_System_0.v",
+    "source_sha256": "4e0acd204ad202cf4cb20a7ef2d15abc5d9309823639e4949d0f2c9cb82835d5"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_3/system_ARM_Processor_System_0.xml",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_3/system_ARM_Processor_System_0.xml",
+    "source_sha256": "2446640d020c9ca9d5a538c9e2eacbfc1882a64f8444f3e05ee1f6d4ef36fc32"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_4/.m_params_system_ARM_Processor_System_0.txt",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_4/.m_params_system_ARM_Processor_System_0.txt",
+    "source_sha256": "6e88ef99eefda08eb322c2b4121b9039c5029314d0b3293b05958b0831dd82d9"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_4/.ports_system_ARM_Processor_System_0.txt",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_4/.ports_system_ARM_Processor_System_0.txt",
+    "source_sha256": "8010b1e9c7854e9526662d13907f7e5e0c3e89ec421b1d73b979d2ccf011a5a9"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_4/Design.xml",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_4/Design.xml",
+    "source_sha256": "dbc2817e3f27fe2c5cfa257826d74edc2a8b820ede1d135e1a1820f0b8581e62"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_4/DesignConfiguration.xml",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_4/DesignConfiguration.xml",
+    "source_sha256": "9585b82e9eb7d12e6c720574f6640ddd033f2aa083d4e53431c0fbce104ce108"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_4/DesignTmp.xml",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_4/DesignTmp.xml",
+    "source_sha256": "ccb2c536827feb2b46cf9713a5dd407826417dc5793c4c23a4474393142bcfb3"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_4/GuiFinal.xml",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_4/GuiFinal.xml",
+    "source_sha256": "0eecc88a9ba47f13187ce77c92ca14d5801d099e16f766ca2381cb58e10afe5a"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_4/system_ARM_Processor_System_0.tcl",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_4/system_ARM_Processor_System_0.tcl",
+    "source_sha256": "31b91a9a9443093903fabf35129648c6dd00e67dd15f3efeb2f6383158ca10f2"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_4/system_ARM_Processor_System_0.v",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_4/system_ARM_Processor_System_0.v",
+    "source_sha256": "4c8ffefc8e8e09d257fade08e430bce1f0dc59be13d64f4c15fb18acccc598ae"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_4/system_ARM_Processor_System_0.xml",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_4/system_ARM_Processor_System_0.xml",
+    "source_sha256": "2446640d020c9ca9d5a538c9e2eacbfc1882a64f8444f3e05ee1f6d4ef36fc32"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_4/RTL/ARM_Processor_System_cb19c917a74f.v",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_4/RTL/ARM_Processor_System_cb19c917a74f.v",
+    "source_sha256": "e4fa6486505b7c287a295ffd2b0652a1efcbc474695778e85ec23a15d8440960"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_4/RTL/include/define.v",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_4/RTL/include/define.v",
+    "source_sha256": "276ae50d221b3680c057e354f04394ee0ffac3ef02a9cc9d692c35d277f53287"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_3/RTL/ARM_Processor_System_cb19c917a74f.v",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_3/RTL/ARM_Processor_System_cb19c917a74f.v",
+    "source_sha256": "e4fa6486505b7c287a295ffd2b0652a1efcbc474695778e85ec23a15d8440960"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_3/RTL/include/define.v",
+    "target": "fpga/td/uisrc/01_rtl/system/.ipName.customize/system_ARM_Processor_System_0_3/RTL/include/define.v",
+    "source_sha256": "276ae50d221b3680c057e354f04394ee0ffac3ef02a9cc9d692c35d277f53287"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/al_ip/PLLF9F0D0P0_0/.m_params_PLLF9F0D0P0_0.txt",
+    "target": "fpga/td/al_ip/PLLF9F0D0P0_0/.m_params_PLLF9F0D0P0_0.txt",
+    "source_sha256": "8dbde981baf9db62bbe9c27675f795876c2b8fcf56544926c5535ca183bdef0f"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/al_ip/PLLF9F0D0P0_0/.params_PLLF9F0D0P0_0.txt",
+    "target": "fpga/td/al_ip/PLLF9F0D0P0_0/.params_PLLF9F0D0P0_0.txt",
+    "source_sha256": "6f79f1849d87dc194d4956ec7b2e6f65db0878ff0a0ca257feeda3af465092a6"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/al_ip/PLLF9F0D0P0_0/.ports_PLLF9F0D0P0_0.txt",
+    "target": "fpga/td/al_ip/PLLF9F0D0P0_0/.ports_PLLF9F0D0P0_0.txt",
+    "source_sha256": "fd63f47aa79119b1545edfb28a8ae71779fbf0021fca5c6f5ddc2cc45772971f"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/al_ip/PLLF9F0D0P0_0/Design.xml",
+    "target": "fpga/td/al_ip/PLLF9F0D0P0_0/Design.xml",
+    "source_sha256": "bcdfdbdeb8606eb63372f7e5a93427198a68cef97c1b60cda6c86d107e5975dc"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/al_ip/PLLF9F0D0P0_0/DesignConfiguration.xml",
+    "target": "fpga/td/al_ip/PLLF9F0D0P0_0/DesignConfiguration.xml",
+    "source_sha256": "fef3b787fa46ab487b96f7dda89b47d79369d489e1fab496ded9bda5aeff2508"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/al_ip/PLLF9F0D0P0_0/PLLF9F0D0P0_0.v",
+    "target": "fpga/td/al_ip/PLLF9F0D0P0_0/PLLF9F0D0P0_0.v",
+    "source_sha256": "d997bcdca5cf0238158ee38fea36bf72f276c2c1ca2a3e64f259ca9c8ebe055b"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/al_ip/PLLF9F0D0P0_0/PLLF9F0D0P0_0.xml",
+    "target": "fpga/td/al_ip/PLLF9F0D0P0_0/PLLF9F0D0P0_0.xml",
+    "source_sha256": "0e93a73e012f057d277b973bd9c73c2708c31d063172db4a5e6c3c77db3b402b"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/al_ip/PLLF9F0D0P0_0/RTL/dr1_phy_pll_PLLF9F0D0P0_0.v",
+    "target": "fpga/td/al_ip/PLLF9F0D0P0_0/RTL/dr1_phy_pll_PLLF9F0D0P0_0.v",
+    "source_sha256": "98a22fdc39b7424bf43a7553fcd8e47c6ef5eefec0f6d28f41958f2d6939d0ff"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/al_ip/PLLF9F0D0P0_0/RTL/include/define.v",
+    "target": "fpga/td/al_ip/PLLF9F0D0P0_0/RTL/include/define.v",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/fpga_prj.al",
+    "target": "fpga/td/fpga_prj.al",
+    "source_sha256": "d518010ad007f84f1c465debe88a492826686c73c962836a54a20dcd4031c384"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_prj/fpga_prj_devicesetting.cfg",
+    "target": "fpga/td/fpga_prj_devicesetting.cfg",
+    "source_sha256": "b70867da3b520322450d44e09a34db99826ba95bc3652999b36de311785d8ace"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/.ApplicationProject",
+    "target": "fpga/fd/soc_fsbl/.ApplicationProject",
+    "source_sha256": "3f19778e12e616d703e66a935ce6ff9ce8b5957921deb1c4408637ca24ba448b"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/.cproject",
+    "target": "fpga/fd/soc_fsbl/.cproject",
+    "source_sha256": "5ee015acd6abed3149129dc57ff39cdefd7c2e10edd8bd4c2626a0f8f74a1b3b"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/.project",
+    "target": "fpga/fd/soc_fsbl/.project",
+    "source_sha256": "0a42d25c7760f87d6f61d0100e9736dae63bee9fed27256d1fe1b9d921d88eff"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/alfsbl_boot.c",
+    "target": "fpga/fd/soc_fsbl/alfsbl_boot.c",
+    "source_sha256": "066884c3f6fcd2166ca9d58c6ff41c362b4015c0b0796bea7ca41e9b89f693e6"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/alfsbl_boot.h",
+    "target": "fpga/fd/soc_fsbl/alfsbl_boot.h",
+    "source_sha256": "5a80d58dd3b7df0cc430d3d4b6bffe94ced70b91fe833d857f153be9c56cd134"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/alfsbl_config.h",
+    "target": "fpga/fd/soc_fsbl/alfsbl_config.h",
+    "source_sha256": "c3f5ba80b50dbe45d817f54dfc0b1b273f6f413091b68c331bce60300f2ed155"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/alfsbl_data.h",
+    "target": "fpga/fd/soc_fsbl/alfsbl_data.h",
+    "source_sha256": "723d8737c68c502a31d68094298f977524a4c838eb5253fc76e3a9d56586100c"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/alfsbl_efuse.c",
+    "target": "fpga/fd/soc_fsbl/alfsbl_efuse.c",
+    "source_sha256": "7ff654a84e7990703335dc9fe9a7a7eb7f8ce9560145ddb4d0c5e06c274ef4f3"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/alfsbl_efuse.h",
+    "target": "fpga/fd/soc_fsbl/alfsbl_efuse.h",
+    "source_sha256": "876af648ac4b8df9396c3682daf517ed08096774957005135581d6755655698d"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/alfsbl_emmc_raw.c",
+    "target": "fpga/fd/soc_fsbl/alfsbl_emmc_raw.c",
+    "source_sha256": "8131323a2a49f599bf91bd68c6df3d0850a63af594e81ccb134c3b7ecb5c5fd6"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/alfsbl_emmc_raw.h",
+    "target": "fpga/fd/soc_fsbl/alfsbl_emmc_raw.h",
+    "source_sha256": "f9466bfcb3652a4db2a1bd4355eea653b791f292596e3c77b45aadfcb41b0c94"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/alfsbl_err_code.h",
+    "target": "fpga/fd/soc_fsbl/alfsbl_err_code.h",
+    "source_sha256": "e11919649db9f96eedf9939f79bc83a93dd12c923f7acc35582408e7004276a3"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/alfsbl_err_lockdown.c",
+    "target": "fpga/fd/soc_fsbl/alfsbl_err_lockdown.c",
+    "source_sha256": "b600d7216de1f8232aef0df575ced24e7cf8eedd2e3283f23f3913e1d9ef4f59"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/alfsbl_err_lockdown.h",
+    "target": "fpga/fd/soc_fsbl/alfsbl_err_lockdown.h",
+    "source_sha256": "de16e7da6af833ae107a9b483ea827a635e561447d2cdc4469d11af43fe4281a"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/alfsbl_handoff.c",
+    "target": "fpga/fd/soc_fsbl/alfsbl_handoff.c",
+    "source_sha256": "8317d620bc97e2e8e5317af6524b1d173214f6f4a89f524bec82dc1cc4d8c7eb"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/alfsbl_handoff.h",
+    "target": "fpga/fd/soc_fsbl/alfsbl_handoff.h",
+    "source_sha256": "34685b823dd84c1cc03041425a45e9e5377ba4749e964b7c35ec120700166a38"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/alfsbl_hw.h",
+    "target": "fpga/fd/soc_fsbl/alfsbl_hw.h",
+    "source_sha256": "c4b059140671cfc24b522e9c14fa6cae5664a6193d8caa212a41681f2bb38cab"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/alfsbl_image_header.c",
+    "target": "fpga/fd/soc_fsbl/alfsbl_image_header.c",
+    "source_sha256": "b52ee933838ba1e34306ea974bb070ed873c94ac69cacbf25b5e78dca5f260eb"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/alfsbl_image_header.h",
+    "target": "fpga/fd/soc_fsbl/alfsbl_image_header.h",
+    "source_sha256": "11101968092357c4fa0c9ba1177ad52210fc2fe2bc5ea788d63470a9137d95a4"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/alfsbl_init.c",
+    "target": "fpga/fd/soc_fsbl/alfsbl_init.c",
+    "source_sha256": "92eb284d7bdaa78ac8eb369562a1e884f13cb35203ea2655a8f1d628a0570660"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/alfsbl_init.h",
+    "target": "fpga/fd/soc_fsbl/alfsbl_init.h",
+    "source_sha256": "fa0ab57f92ce525a55b042ee720150edad5205767d1ddee55078f4a31c5aa24a"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/alfsbl_main.c",
+    "target": "fpga/fd/soc_fsbl/alfsbl_main.c",
+    "source_sha256": "a25c893038460b3acd83a1793c60b66eef6b004107b39b179d3b501536d39b94"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/alfsbl_main.h",
+    "target": "fpga/fd/soc_fsbl/alfsbl_main.h",
+    "source_sha256": "195c318c19f1f06baeef2bfc6e4f408e2e685ff64e16961d79651e38afd21559"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/alfsbl_misc.c",
+    "target": "fpga/fd/soc_fsbl/alfsbl_misc.c",
+    "source_sha256": "b0dea87a5353c6a786687fff0f8d0cf4ac52ec373b09a1af2eddb1ca1ce4296a"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/alfsbl_misc.h",
+    "target": "fpga/fd/soc_fsbl/alfsbl_misc.h",
+    "source_sha256": "ffd3ef7e22f34892f590ede6c47be168dc9545dc7477ae7838f8392f4216fad1"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/alfsbl_nand.c",
+    "target": "fpga/fd/soc_fsbl/alfsbl_nand.c",
+    "source_sha256": "6aeb6c5a7997104e0b91fb2b9a78d73d31d2045a8b96bf4dd02275545f2dd33c"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/alfsbl_nand.h",
+    "target": "fpga/fd/soc_fsbl/alfsbl_nand.h",
+    "source_sha256": "68150602e29944c847ce5ece3c584a862ee5f6bf8d430b9a339d03e296653218"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/alfsbl_partition_load.c",
+    "target": "fpga/fd/soc_fsbl/alfsbl_partition_load.c",
+    "source_sha256": "8b5c23169a39c16ada62bc166989c18060627f7bc0602d690d5aa8f37accaf59"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/alfsbl_partition_load.h",
+    "target": "fpga/fd/soc_fsbl/alfsbl_partition_load.h",
+    "source_sha256": "d9ee5f9d3805c14dfac789e5e71b0272f7a51a8342e7f4563076ddaf8f46378c"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/alfsbl_qspi.c",
+    "target": "fpga/fd/soc_fsbl/alfsbl_qspi.c",
+    "source_sha256": "edc95d00a09e0d9283d7e73ca4e25d47b5751f38ca7ca60f251311e8b93083e5"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/alfsbl_qspi.h",
+    "target": "fpga/fd/soc_fsbl/alfsbl_qspi.h",
+    "source_sha256": "45466982239d16fc732e6de2d1cd824af0fbe37b315110f83c2a4b5bff620f23"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/alfsbl_sd.c",
+    "target": "fpga/fd/soc_fsbl/alfsbl_sd.c",
+    "source_sha256": "e6ba40ea51855532c2b35c0aca6517a089f2a40f792a23c0cb06b21fa4dfbd4e"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/alfsbl_sd.h",
+    "target": "fpga/fd/soc_fsbl/alfsbl_sd.h",
+    "source_sha256": "4b0d480ab57ebace6eaa4888c4a54f0400f9c1333af62553f99b5fbd8dd07dce"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/alfsbl_secure.c",
+    "target": "fpga/fd/soc_fsbl/alfsbl_secure.c",
+    "source_sha256": "bf90c77de032a5a460ebefdf93dd9ee2d928542941af70d61166825e5666f505"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/alfsbl_secure.h",
+    "target": "fpga/fd/soc_fsbl/alfsbl_secure.h",
+    "source_sha256": "0ae50fb5249752c45e4dd5b241f613e2eef8cd7f2e734ce42b669d9a57e27c81"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/Makefile",
+    "target": "fpga/fd/soc_fsbl/Makefile",
+    "source_sha256": "ef51b86bf4d85bc10a31efaf87a1186c9ef0578cf914746f9426cf60cd783b3f"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/ps_init_default.c",
+    "target": "fpga/fd/soc_fsbl/ps_init_default.c",
+    "source_sha256": "ea5fe71d53ab11f370777b3fde71a4b1a26bd5f68493cdb803f5b20eb4905cae"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/.settings/com.anlogic.sdk.project.settings.xml",
+    "target": "fpga/fd/soc_fsbl/.settings/com.anlogic.sdk.project.settings.xml",
+    "source_sha256": "ef80c72949f62a5305ce7f1327c2135de50139a5a039d5652332ad17fdae93ed"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/.settings/language.settings.xml",
+    "target": "fpga/fd/soc_fsbl/.settings/language.settings.xml",
+    "source_sha256": "72a9d291b237c3aafcfa650929d499f251b93e3b27322178585f1cce7b4dc882"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/lds/gcc_dr1m90_ddr_aarch32.ld",
+    "target": "fpga/fd/soc_fsbl/lds/gcc_dr1m90_ddr_aarch32.ld",
+    "source_sha256": "3da8dada2be9e409aa9c40c1486441c674ac03824d08fd298c8dc8b55be95343"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/lds/gcc_dr1m90_ddr_aarch64.ld",
+    "target": "fpga/fd/soc_fsbl/lds/gcc_dr1m90_ddr_aarch64.ld",
+    "source_sha256": "c6ebbd1505d1a12dc94a95aa53d8b2439d03f490bb3d9ecde64f374a1c757325"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/lds/gcc_dr1m90_ocm_aarch32.ld",
+    "target": "fpga/fd/soc_fsbl/lds/gcc_dr1m90_ocm_aarch32.ld",
+    "source_sha256": "8a6b3c8a6d57066d7f1682b8b0d4f1be27111ed262f740ff99425bee38321b7e"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/lds/gcc_dr1m90_ocm_aarch64.ld",
+    "target": "fpga/fd/soc_fsbl/lds/gcc_dr1m90_ocm_aarch64.ld",
+    "source_sha256": "e74d1f324a4abe5941b8da44d62ef10f20e149a18ab6d486049d17c58257a3fc"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/lds/gcc_dr1m90_xip_aarch64.ld",
+    "target": "fpga/fd/soc_fsbl/lds/gcc_dr1m90_xip_aarch64.ld",
+    "source_sha256": "05ff097212834abab0b5d304858ba9da2942b57af19156791d68fb44317d04f5"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/.cproject",
+    "target": "fpga/fd/soc_base/.cproject",
+    "source_sha256": "1b892d4343a54b77b39605ffc1107acad4a5905db48887f18897f47d765e8620"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/.project",
+    "target": "fpga/fd/soc_base/.project",
+    "source_sha256": "bf81b3c33e9c04bd6699aadaf6d509d13929ced07bd370d7ae3b6a8f9512d4d2"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/Makefile",
+    "target": "fpga/fd/soc_base/Makefile",
+    "source_sha256": "0681f2e83b783a2921b8f1f22117a2986e987af0ed3f7a002bcdaf178dcda9f1"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/system.mss",
+    "target": "fpga/fd/soc_base/system.mss",
+    "source_sha256": "2962bec38f8ffe118f81d99025e763024fdf10880e3b6a1f8417d4ea83a5d90b"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/.settings/com.anlogic.sdk.project.settings.xml",
+    "target": "fpga/fd/soc_base/.settings/com.anlogic.sdk.project.settings.xml",
+    "source_sha256": "ef80c72949f62a5305ce7f1327c2135de50139a5a039d5652332ad17fdae93ed"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/.settings/language.settings.xml",
+    "target": "fpga/fd/soc_base/.settings/language.settings.xml",
+    "source_sha256": "414ad0762cffe0f259513443497275e551af49ad52b6684286f05b58c8c10230"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/Makefile",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/Makefile",
+    "source_sha256": "4535fcd1751c7a9a3d826377c147ab1c5d8f7c0200b5022a797eeb7bda5da801"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/platform/board_cfg.mk",
+    "target": "fpga/fd/soc_base/platform/board_cfg.mk",
+    "source_sha256": "78d097997fe90d1e5ddadd9a22464e85e552975a2ab7436c40e017b04fa3e8f7"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/platform/Design.xml",
+    "target": "fpga/fd/soc_base/platform/Design.xml",
+    "source_sha256": "3bcf66f5ac298d8acb1fb83f6cf390c5a4a983294661b29a6633869b0f61da21"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/platform/Makefile",
+    "target": "fpga/fd/soc_base/platform/Makefile",
+    "source_sha256": "59714e25fdd340ff50f39ffe3b9cf9ee9cedddca65c0c03d2403037b0162af5c"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/platform/soc_plat.tcl",
+    "target": "fpga/fd/soc_base/platform/soc_plat.tcl",
+    "source_sha256": "1642fdc9f5fab4de96932699f7bf2056e3c4f0ebda1a7458ca26b38330540eb3"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/tools/make/config.mk",
+    "target": "fpga/fd/soc_base/tools/make/config.mk",
+    "source_sha256": "c36ffc3671fcdfd6904cc0a3cac627fd441562932960b4dcb1df7076b079aa4d"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/tools/make/rules.mk",
+    "target": "fpga/fd/soc_base/tools/make/rules.mk",
+    "source_sha256": "86a069ff247d33ad8fb4f7a52d9be715a814cf697f352565d1bdb1a3e2704e8b"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/platform/inc/alc_types.h",
+    "target": "fpga/fd/soc_base/platform/inc/alc_types.h",
+    "source_sha256": "93c6f68cd0027d5086c71cfb3b017580ff95b56ff427b8e59f831e5d5215e192"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/platform/inc/dr1x90_ddrc_init.h",
+    "target": "fpga/fd/soc_base/platform/inc/dr1x90_ddrc_init.h",
+    "source_sha256": "26fffe7c0ad265ef3b2a05983750596491039d7ab363529cfb7a34d85f155008"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/platform/inc/fd_ddr_init.h",
+    "target": "fpga/fd/soc_base/platform/inc/fd_ddr_init.h",
+    "source_sha256": "c5cab9af9619b439518f9198e897d9eebf2ff95460e0ce7f7f83ce3932c6a03b"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/platform/inc/soc_plat.h",
+    "target": "fpga/fd/soc_base/platform/inc/soc_plat.h",
+    "source_sha256": "f0447c9484e8e955f43ae050feed704e75ca258a7ca4b29a40c72d7a6997080f"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/platform/src/ddr_speed_bin.c",
+    "target": "fpga/fd/soc_base/platform/src/ddr_speed_bin.c",
+    "source_sha256": "fc43b6279e9b3617be1c091793d7dff759389345391d5bce742b87ff37dfa960"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/platform/src/fd_ddr_init.c",
+    "target": "fpga/fd/soc_base/platform/src/fd_ddr_init.c",
+    "source_sha256": "93e5883ccd5e619926a97191d8b89d7d7825ebfbd62fbaa9a44557915ebd81e5"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/platform/src/soc_plat.c",
+    "target": "fpga/fd/soc_base/platform/src/soc_plat.c",
+    "source_sha256": "64f061a7a4c8591d89c93616ca8dd703fce25b9fcf803d9a070859bff96dc1ea"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/inc/al_backtrace.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/inc/al_backtrace.h",
+    "source_sha256": "3a8d7f66f9b93559be03f77fe52e40d367dd55d1f5f42293eaf062881e8c020b"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/inc/al_barrier.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/inc/al_barrier.h",
+    "source_sha256": "c601176a09f1709c573cabbb7afdc9acf828cbeadfc97d48d228f01dcb241bed"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/inc/al_cache.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/inc/al_cache.h",
+    "source_sha256": "3d3c3d6b5d5474018744123152156131e4c4e79d20e9b5582e287099163cc7c7"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/inc/al_compiler.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/inc/al_compiler.h",
+    "source_sha256": "1a282aada1db0732c6de5638e9c79ad9319c1e1f1f7c071bf4e2644976d0c839"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/inc/al_core.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/inc/al_core.h",
+    "source_sha256": "6b1ad89488aee55bdf1dd0dc4b7fb9b0a4eec4814ae1f3cdb1941343dc25bae0"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/inc/al_errno.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/inc/al_errno.h",
+    "source_sha256": "6391d729d47334097b97c6d4f773cc15093df5e48c57c8d7856133fd826fc1f4"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/inc/al_hal.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/inc/al_hal.h",
+    "source_sha256": "d6cb06212330c0feb62756c2d7d397ad5435301af5a97b1e340e5582b6890760"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/inc/al_intr.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/inc/al_intr.h",
+    "source_sha256": "cf5b892946c1be690fed69fbf146bda66bad92c5626cde7136286d06a17f4f91"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/inc/al_osal.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/inc/al_osal.h",
+    "source_sha256": "cc73033248323a488558f3a3368744fb726582dbdb4eb736ab88f4b1357888d4"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/inc/al_reg_io.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/inc/al_reg_io.h",
+    "source_sha256": "a5fe4e7fd62d7355e9cf23a0de4bf2590bb0d1c77cf102a10d2dad7886dea799"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/inc/al_systimer.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/inc/al_systimer.h",
+    "source_sha256": "b21f6b2982c859f98748322c3d9940e864c18b1ee528867ed0364be61648aedf"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/inc/al_type.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/inc/al_type.h",
+    "source_sha256": "79a8fd48a82eb654b24ac656faa3bdaf6d966f4060835b25d0f44e5b791af8e5"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/inc/al_utils_def.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/inc/al_utils_def.h",
+    "source_sha256": "16f91ee0acf0e772042ec97cf93f94884a31a5fe927b4ea5b77280bda387eee7"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/inc/al_version.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/inc/al_version.h",
+    "source_sha256": "46c2ec6816b8b9b2013448ec915b8b608d5d491fa51842895a05a4927f8a6685"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/clock_getres.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/clock_getres.c",
+    "source_sha256": "f4eec013e49ffd9a998fb409fdde5eff82e2a51484229c7050a2f6c5fb8f443a"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/clock_gettime.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/clock_gettime.c",
+    "source_sha256": "651104806292442ca0028f95617727a227cd5af8d4e07dc303d6dc779ef225ea"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/clock_settime.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/clock_settime.c",
+    "source_sha256": "b6bc551ac26b100ef9f1024b80d77c1b2517c891d4c227d57b233c4227f4f47b"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/close.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/close.c",
+    "source_sha256": "2a929daf6a54d9b1487f379cceb4331716087d2dd020283ada290a9797cb2e3b"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/execve.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/execve.c",
+    "source_sha256": "d5cee43b62d8ada3d8ae455e60ce819b3754e107b0391da896f45180ff46facd"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/exit.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/exit.c",
+    "source_sha256": "03421f74e42df3a59eda391432ae19bb0de9cafde90f6fed1e3ce6362dbee04e"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/fork.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/fork.c",
+    "source_sha256": "ec4091f5daf70d8ea7108097872d17fc39c48ea8a6cfb49c74146fcf3369e825"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/fstat.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/fstat.c",
+    "source_sha256": "86485ea7a4d44d1172cb21525a48fb19d088e363e6e520f9bf0d562307222293"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/getpid.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/getpid.c",
+    "source_sha256": "e3ca40ba1717e55caa8af6d83f11c6ebd72f67d4151abc3c087ad858c57b83f0"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/gettimeofday.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/gettimeofday.c",
+    "source_sha256": "bc63973ab197c831cbb35cc2c70d3457abd37a627db6ebd86fc9cd935aafd3c1"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/isatty.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/isatty.c",
+    "source_sha256": "cb5fb06483bfb8873c75f09dc396cad6dca28e94f39847b29cbcd295a209776b"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/kill.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/kill.c",
+    "source_sha256": "cac01b540860a01c4d5dddbab216f9b67f4757bd5010cd7ae9e1cb70347df9ac"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/link.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/link.c",
+    "source_sha256": "706a5b1d689a2fad05cc1eedb574d72a7d39f942742feaf8baa585d78c1ff995"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/lseek.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/lseek.c",
+    "source_sha256": "07075cd2dfa3fbfdd29dc91f146dde8ad29052b4ff99a973204ae4dea29c3bfd"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/memcmp.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/memcmp.c",
+    "source_sha256": "2d7e44a3aa882785957236621ada8b12537ac91df11e413892546cf9c100ec05"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/memcpy.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/memcpy.c",
+    "source_sha256": "c3eb9c6f7449194219982b3b9ebf43ffc62f51ffc0588396170252af53848bfa"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/memset.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/memset.c",
+    "source_sha256": "a1172d2dd887a1d94427f2a83138e3ba9bfd6c9a081fdf5336bfd1bc5b12b3d4"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/open.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/open.c",
+    "source_sha256": "2a4b13f0f0fce3024bbe74ff287202d202d49f48dcd22befad0eaf8e9f0bb970"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/read.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/read.c",
+    "source_sha256": "d8eabb791b79e0a149f453f32a1a532242d3a709863c14c5e9e587cfd5b11049"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/sbrk.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/sbrk.c",
+    "source_sha256": "d3e112c26e5f6e7eb6584807abf32bb35b3c51a45ed4fbe0367972d6b226a5da"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/stat.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/stat.c",
+    "source_sha256": "d42460086f2b99c50c307efa8f0048323659d004339c0941979c6298644f7492"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/strlen.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/strlen.c",
+    "source_sha256": "aec2f4a1edf87a22b666f4872ae23311610fe5dfab91a767cb9b22397d056dbf"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/times.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/times.c",
+    "source_sha256": "6f8fa887cafcd8dd19da82a57d79591c3f79c665e948570b2044eb80d2e1a6c5"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/unlink.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/unlink.c",
+    "source_sha256": "98c705eac8384d528f32579d816e9087571f18f8769a0c635d9770ebe09840f5"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/wait.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/wait.c",
+    "source_sha256": "ccb25a41770e2ec8cc5d347a993c5f8b3dd3db2a709e0b0f3ab026def3345ddc"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/write.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/lib/newlib/gcc/write.c",
+    "source_sha256": "5a25c76d5fbb076503b3faa411a675a60d6a4b19baeda75ca022f0806de6cca8"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/xmon/inc/al_xmon_hal.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/xmon/inc/al_xmon_hal.h",
+    "source_sha256": "574ec992ebb350c531862997f0178ba96110e2a3fc3122b9289efdbedcfdedc8"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/xmon/inc/al_xmon_hw.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/xmon/inc/al_xmon_hw.h",
+    "source_sha256": "cc494dd157b4572f9040e5c80be7f8f7ce52d264b60fc7e7c2808d596aca6e94"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/xmon/inc/al_xmon_ll.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/xmon/inc/al_xmon_ll.h",
+    "source_sha256": "11d52829f82daaa4bb7c80292e10371e26458b4f601f201ed7ec5df3f291f742"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/xmon/src/al_xmon_cfg.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/xmon/src/al_xmon_cfg.c",
+    "source_sha256": "1f45ebbcc6bb0f531775152d181cb10134071fc0f7c5b39106868b2040beb95d"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/xmon/src/al_xmon_hal.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/xmon/src/al_xmon_hal.c",
+    "source_sha256": "62d8256384230e74e0cb4a8bdfe03330ec1f7f9d47cd1725c7fd034b6381a706"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/wdt/inc/al_wdt_dev.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/wdt/inc/al_wdt_dev.h",
+    "source_sha256": "314b230bd63b8cdc85418c61804b97f8d62ff6572bbba63f94b845322bb94a54"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/wdt/inc/al_wdt_hal.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/wdt/inc/al_wdt_hal.h",
+    "source_sha256": "19ef22f471cd1eadb2f6428fdd3f23f1ee2922a426f6d15eefd1bb6ebfce3591"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/wdt/inc/al_wdt_hw.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/wdt/inc/al_wdt_hw.h",
+    "source_sha256": "f3521b58074ab1ac63de6d388f25d226c7d6ab4306ab3a8185c73b2f9c687041"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/wdt/inc/al_wdt_ll.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/wdt/inc/al_wdt_ll.h",
+    "source_sha256": "6d18daf45a6c2fb9b292e2c95056058fe5f78380e43a4981c3bcac7e18d08d1c"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/wdt/src/al_wdt_cfg.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/wdt/src/al_wdt_cfg.c",
+    "source_sha256": "b504cccdb596550fb5e737cb3db716caedaf4e66d1d1eeb1d0f85f2b3e45bde5"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/wdt/src/al_wdt_hal.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/wdt/src/al_wdt_hal.c",
+    "source_sha256": "e7b719ad5e84f472812895614ea066dd97ef1a105fe2817dd532c6009fdaa4af"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/usb/inc/al_usb_hal.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/usb/inc/al_usb_hal.h",
+    "source_sha256": "8d2bf69e3845752909108ccf429a51bf8c718cd3b0f8c35e4feb837cdbe2baa2"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/usb/inc/al_usb_hw.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/usb/inc/al_usb_hw.h",
+    "source_sha256": "652d0f4abdb1fd9a7eb5de286c20dddae7365862d878d676ecfb64b5a55d9aa8"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/usb/inc/al_usb_ll.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/usb/inc/al_usb_ll.h",
+    "source_sha256": "004c7985ce7590d78c3067f20606ace92ed3435b9fd3123c4b84a00e8a475357"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/usb/src/al_usb_cfg.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/usb/src/al_usb_cfg.c",
+    "source_sha256": "9f3ec431981a17c528d9ef3a4b3517d91ae13681d66c212ce654bbfcb634b8a2"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/usb/src/al_usb_hal.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/usb/src/al_usb_hal.c",
+    "source_sha256": "b39d8847650fdb810c7b9676c5aac316babb120f08fa5737f3f007c15ea733f4"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/uart/inc/al_uart_dev.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/uart/inc/al_uart_dev.h",
+    "source_sha256": "9159a7373d3fb186db18f8697a3880c2cf92659b9e085f8688491076bc2c725a"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/uart/inc/al_uart_hal.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/uart/inc/al_uart_hal.h",
+    "source_sha256": "855feaf04c20e5192f0ddc4902a0cc654e4e4c12bd02b877ea40fadf99bbd08d"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/uart/inc/al_uart_hw.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/uart/inc/al_uart_hw.h",
+    "source_sha256": "0ebb250e3f8160e65a36b99074f2d7255a1cdd3990bad77cc72b3b4d7beb5c26"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/uart/inc/al_uart_ll.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/uart/inc/al_uart_ll.h",
+    "source_sha256": "b891980a9056b477277db0c8686fb1572dd9bcd04239b6024af748bfad0b5286"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/uart/src/al_uart_cfg.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/uart/src/al_uart_cfg.c",
+    "source_sha256": "fa6bc29452f4e025a457be32179969abbba90f61e1fa400995fffd64b64a5a5a"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/uart/src/al_uart_dev.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/uart/src/al_uart_dev.c",
+    "source_sha256": "25fe2929b0608c65cfacb7888a3a7fb2a75cbc5e3684b54638f3d689d5c42d70"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/uart/src/al_uart_hal.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/uart/src/al_uart_hal.c",
+    "source_sha256": "759a9385587403ca7cfde1d87c35c38f7cd48f18f01d8be5c29ead0ad1b3489c"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/tc/inc/al_tc_dev.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/tc/inc/al_tc_dev.h",
+    "source_sha256": "7f36e1e79b74ea10419df28f9b65c41cf1449a35ca31c6ff816c93e5df84ac4e"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/tc/inc/al_tc_hal.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/tc/inc/al_tc_hal.h",
+    "source_sha256": "24af499f58d4d2c0b21aaf4ae042768490d5428fd1d9c706aee36826ebe65933"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/tc/inc/al_tc_hw.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/tc/inc/al_tc_hw.h",
+    "source_sha256": "6d247d73860898e3ceff94b018a364d58d73c29b68d88649496394abe9080d75"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/tc/inc/al_tc_ll.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/tc/inc/al_tc_ll.h",
+    "source_sha256": "23eddbd972f0f393b498188c0ebe8118a0be3c7de49d1e1692489cb20e491e88"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/tc/src/al_tc_cfg.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/tc/src/al_tc_cfg.c",
+    "source_sha256": "6abe19b3f11d5a52dbf7879c42a6b6c1f7c47e1d4372652275ffe5593894632a"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/tc/src/al_tc_dev.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/tc/src/al_tc_dev.c",
+    "source_sha256": "e08c4cabfb015a9e09da9018b340fc64437e5f75bf485093c0f4c72a19364c29"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/tc/src/al_tc_hal.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/tc/src/al_tc_hal.c",
+    "source_sha256": "757705669596e1fe37d6fa0b39fafddb6ca2fb746786a1fbe7a08c2410ed430d"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/spi-nor/inc/al_spi_controller.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/spi-nor/inc/al_spi_controller.h",
+    "source_sha256": "115b810b4c8659ba1a7a6c784aef97bc972918a632190370f66ece77606ad174"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/spi-nor/inc/al_spi_mem.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/spi-nor/inc/al_spi_mem.h",
+    "source_sha256": "a5fc1404c48a4381da3a54ce46378536c8a6be047b7fb6dfac3d5c87e1191477"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/spi-nor/inc/al_spi_nor.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/spi-nor/inc/al_spi_nor.h",
+    "source_sha256": "c34b72d0d1377b871a808cf225641ff96c5e67745b9c5bb1396bde2ef14fad3b"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/spi-nor/src/al_spi_controller.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/spi-nor/src/al_spi_controller.c",
+    "source_sha256": "e7f8d3e13e908a3a091a776c81870d06d49c8672f523a61ebf74d8c39172579b"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/spi-nor/src/al_spi_nor.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/spi-nor/src/al_spi_nor.c",
+    "source_sha256": "97d9b0cfb134169009bbfe4165903a80cb958d4834b36f97b1e78911cd160583"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/spi-nor/src/al_spi_nor_ids.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/spi-nor/src/al_spi_nor_ids.c",
+    "source_sha256": "8ce334e0aa4051bca14223f0359b2de4e058bcb4cda906df6bff2937623ba042"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/spi/inc/al_spi_dev.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/spi/inc/al_spi_dev.h",
+    "source_sha256": "1ac41a1a7aa5bc62fd5e1f48f7ba4970feed0707e4578ea87e98119cc2100220"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/spi/inc/al_spi_hal.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/spi/inc/al_spi_hal.h",
+    "source_sha256": "59cb57503a5e14067d3ef5b0eb30e727e9b39004dc6a41ec5f01aa3cb70d8b4c"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/spi/inc/al_spi_hw.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/spi/inc/al_spi_hw.h",
+    "source_sha256": "50b05790103f9f8bb5f22b541542575d7b697162d314f2e3acb9203c7cb32d2c"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/spi/inc/al_spi_ll.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/spi/inc/al_spi_ll.h",
+    "source_sha256": "7a5032d6626a99fca34fafebf2564315dd56b5dd09a21ef225f2087315ace599"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/spi/src/al_spi_cfg.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/spi/src/al_spi_cfg.c",
+    "source_sha256": "db3ac3498e76cf14684e67a6a3983ab6e614d2f785aff9f05e1a974bb8c79043"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/spi/src/al_spi_dev.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/spi/src/al_spi_dev.c",
+    "source_sha256": "40f6522a046a80d309b742283c018393f9b75cddac5a07fdc65273281ea11283"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/spi/src/al_spi_hal.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/spi/src/al_spi_hal.c",
+    "source_sha256": "0ae7e3e71eaa2b1fda22b66148a84382d989150dcc5afbc0a54a3c6fb738e797"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/smc/inc/al_smc_dev.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/smc/inc/al_smc_dev.h",
+    "source_sha256": "c986e100f2389c93f5655a6ec6483089ea7e99961db7e23d8289adaf6395fc63"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/smc/inc/al_smc_hal.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/smc/inc/al_smc_hal.h",
+    "source_sha256": "faad6332ae14e8cbd9f9101160738d2e200c67bb39e73b41c0e70e779c7db561"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/smc/inc/al_smc_hw.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/smc/inc/al_smc_hw.h",
+    "source_sha256": "07910e400084878e139c2020c9408145198052d1254b8bb70dc6e3e6d997d960"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/smc/inc/al_smc_ll.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/smc/inc/al_smc_ll.h",
+    "source_sha256": "0baa26c39e1750ee4ab76227ea04f3d7b506468b343e58870ea7294b3449d07b"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/smc/src/al_smc_cfg.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/smc/src/al_smc_cfg.c",
+    "source_sha256": "1529b46d3e8adef278373062222f41020e81df1813c5a24ebe77f8c5aec0dfcd"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/smc/src/al_smc_dev.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/smc/src/al_smc_dev.c",
+    "source_sha256": "4180e15aeb71195ad76b973c5d96f1f70f3c238b8c6b7754e8e0300a9734ba01"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/smc/src/al_smc_hal.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/smc/src/al_smc_hal.c",
+    "source_sha256": "31c222a00034dac47bb44398a78359c24ddb250275061bd44a22b7d3ff6e346c"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/qspi/inc/al_qspi_dev.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/qspi/inc/al_qspi_dev.h",
+    "source_sha256": "cd9ff5772f34c32d58a596df5012139bb6f5f3dac7f2bf1b812f593bd464b185"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/qspi/inc/al_qspi_hal.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/qspi/inc/al_qspi_hal.h",
+    "source_sha256": "e21d62fab256d5b43284bcf2169bc97b1ddd4aa4e66e4bcfa3490324c6ef8b66"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/qspi/inc/al_qspi_hw.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/qspi/inc/al_qspi_hw.h",
+    "source_sha256": "5c92f641cc76bb86e5363e560782c130a0e28eebc4fc5952f878c9d2cbade9e0"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/qspi/inc/al_qspi_ll.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/qspi/inc/al_qspi_ll.h",
+    "source_sha256": "ddd6a492ba6781ad117ab1d0ad1d0721da21cb720275712281df94fd71df7d51"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/qspi/src/al_qspi_cfg.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/qspi/src/al_qspi_cfg.c",
+    "source_sha256": "2b5ca2fb381a8da3d38d0211f6dcfa67e126766faa555ea39d6b30d27a6707e0"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/qspi/src/al_qspi_dev.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/qspi/src/al_qspi_dev.c",
+    "source_sha256": "ba945ad0a06f85c56009f2157c0452ab849f874e837b1049f7babce9c8a1569c"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/qspi/src/al_qspi_hal.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/qspi/src/al_qspi_hal.c",
+    "source_sha256": "c5d70bcf98609bbe926f37ddb481952318a79a0046fd4343098bf9a5b5cd5405"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/pmu/inc/al_pmu_hw.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/pmu/inc/al_pmu_hw.h",
+    "source_sha256": "318339ebdc453d0eba0afea2e7249a99a62de42f29afab0f43c6a89edfc688e0"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/pmu/inc/al_pmu_ll.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/pmu/inc/al_pmu_ll.h",
+    "source_sha256": "a062896f57104ff4e32068ef280ddea6c8fe24a58229febb215ccbdac18b6319"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/mpu/inc/al_mpu_dev.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/mpu/inc/al_mpu_dev.h",
+    "source_sha256": "828c1ba37351b3207b1856b0831c609d553cb21db8bf0dc0dbe057bfd81cf2c7"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/mpu/inc/al_mpu_hal.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/mpu/inc/al_mpu_hal.h",
+    "source_sha256": "f42dcc6e3968922b1043a867e8a4519ddef8159ec0b6de13eb3574386199fcb5"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/mpu/inc/al_mpu_hw.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/mpu/inc/al_mpu_hw.h",
+    "source_sha256": "7b778298340276ca31ff9ff5bc1517fd4b4f71f62b79be10c3f0c6048f54eacf"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/mpu/inc/al_mpu_ll.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/mpu/inc/al_mpu_ll.h",
+    "source_sha256": "aa1d3286fe12f58f5d8ec9b0acb586fef067ac0dfb767972a685dc4dae25a8be"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/mpu/src/al_mpu_cfg.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/mpu/src/al_mpu_cfg.c",
+    "source_sha256": "34f8c0d2eb323e1b29c0b3358148b575b8413e7a6be1a6d3184f8c0f4309b1b9"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/mpu/src/al_mpu_dev.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/mpu/src/al_mpu_dev.c",
+    "source_sha256": "fafd37e8d69886ee32f3c17095dd20b763725f6db195dff22629ddb67bf6f642"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/mpu/src/al_mpu_hal.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/mpu/src/al_mpu_hal.c",
+    "source_sha256": "535435950c2e37aee45769e38409de3573260cc0c38158adc936c295e8e74559"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/mmc/inc/al_mmc_dev.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/mmc/inc/al_mmc_dev.h",
+    "source_sha256": "bd1488e07a8c4398ac51e44d873b3d2395e36db6c0ef1c02f41a71d467167a12"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/mmc/inc/al_mmc_hal.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/mmc/inc/al_mmc_hal.h",
+    "source_sha256": "06512e3b6bbb1f86b0ca4281bdad19b0b2febab7d1c7d29b253a14663aae4155"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/mmc/inc/al_mmc_hw.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/mmc/inc/al_mmc_hw.h",
+    "source_sha256": "7b86ec4ace33d791f29f8ee32028968dff583cb6ac4d86bf42c0474381b6d56d"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/mmc/inc/al_mmc_ll.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/mmc/inc/al_mmc_ll.h",
+    "source_sha256": "2043e98644e79747c4423f6ccf5e7ba050396867a77dd4123f4020afbf67e0e6"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/mmc/src/al_mmc_cfg.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/mmc/src/al_mmc_cfg.c",
+    "source_sha256": "89b3e13ce3713acc30a9b4cd6871704a3661ee3652d6b43b30eec3b46188a82c"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/mmc/src/al_mmc_dev.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/mmc/src/al_mmc_dev.c",
+    "source_sha256": "45623ba9c2291453b0abfdf3fbca7cb660e9f50d43bcd757598ce90521ff7f0b"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/mmc/src/al_mmc_hal.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/mmc/src/al_mmc_hal.c",
+    "source_sha256": "23282dca30bdefd59a3885671fafcc7d4a3d02114e6a37853cdfd541cbc5c68d"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/ipc/inc/al_ipc_hal.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/ipc/inc/al_ipc_hal.h",
+    "source_sha256": "3faf5aaab9922c5e9fa619af262b9462ebeb6a67577e28afb0de9df715366218"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/ipc/inc/al_ipc_hw.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/ipc/inc/al_ipc_hw.h",
+    "source_sha256": "e17e90f96511525c9af127029c3cefa43bd3700af452bd6edc197eb4324ef980"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/ipc/inc/al_ipc_ll.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/ipc/inc/al_ipc_ll.h",
+    "source_sha256": "738e5d03e714c65434d5c39bc7ae3764b89d1b4daeb295be0e464e464d3a3690"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/ipc/src/al_ipc_cfg.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/ipc/src/al_ipc_cfg.c",
+    "source_sha256": "a334ac3962091ea576519414ce2beaf773faf5d5dfbf9271cd2c6b056c499bc5"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/ipc/src/al_ipc_hal.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/ipc/src/al_ipc_hal.c",
+    "source_sha256": "448efdd46410e5c049ec00d726005a7d658a5a8c184680ae10baba3b3097cc14"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/iic/inc/al_iic_dev.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/iic/inc/al_iic_dev.h",
+    "source_sha256": "dba453c6014356a3ed4a7a9a4d941f0709f2a8f29d09ceafcd066738aba09c3d"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/iic/inc/al_iic_hal.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/iic/inc/al_iic_hal.h",
+    "source_sha256": "d202541821e6ad1c85c6577685dec8d3993e3e77635b6f273ff1e7527a421049"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/iic/inc/al_iic_hw.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/iic/inc/al_iic_hw.h",
+    "source_sha256": "e47e9127d365b1bbebdff500148f126ffb9e1836fcad3098422b89feba784cf5"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/iic/inc/al_iic_ll.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/iic/inc/al_iic_ll.h",
+    "source_sha256": "82fe8492e6f68df3c7c1bd412ed09819486b44495dbd6a6e2657315ccc88cef6"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/iic/src/al_iic_cfg.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/iic/src/al_iic_cfg.c",
+    "source_sha256": "e77f977496ef8784d440e022eafb2bf2d50d571ac8cb80fd9f9bef260f493ecd"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/iic/src/al_iic_dev.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/iic/src/al_iic_dev.c",
+    "source_sha256": "52e013e4b91a4bd7177c398819c1acd1703fab1088a7debe98eebfc2bd9f6179"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/iic/src/al_iic_hal.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/iic/src/al_iic_hal.c",
+    "source_sha256": "059354e9bb74591173a7b14096253efc4290c2be26e4110816a7dd52bba16bd8"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/gpio/inc/al_gpio_hal.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/gpio/inc/al_gpio_hal.h",
+    "source_sha256": "075fa1732b7138221455480bdca7baa2883861e38d9017c9e43ae62492a7f93b"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/gpio/inc/al_gpio_hw.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/gpio/inc/al_gpio_hw.h",
+    "source_sha256": "f8d6b34ffbbb09c5803b1e9d44014c143abe75315e18d336ac6d8fe24569cb55"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/gpio/inc/al_gpio_ll.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/gpio/inc/al_gpio_ll.h",
+    "source_sha256": "6fa5f06f84ccf69e7c9e1be51aaad779d1c23c50e960f75ddb558f62a57a8302"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/gpio/src/al_gpio_cfg.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/gpio/src/al_gpio_cfg.c",
+    "source_sha256": "310661f0ce2cc52505a2ed045e4e2e49730e68fe384c8cc812a2cde4d5a27fbd"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/gpio/src/al_gpio_hal.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/gpio/src/al_gpio_hal.c",
+    "source_sha256": "881edbd0ff1d3336827d86674f37f4c064b60bc36cd453e32226ee3cb4443d68"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/gbe/inc/al_gbe_dev.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/gbe/inc/al_gbe_dev.h",
+    "source_sha256": "06aa8f86fdca8890105305c6ea43f696489b3a99466f4d56c9fa2a68062d649a"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/gbe/inc/al_gbe_hal.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/gbe/inc/al_gbe_hal.h",
+    "source_sha256": "f331e00784451cd2aae205c895afb243f2ac10218dd58c1bed40b6d608470472"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/gbe/inc/al_gbe_hw.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/gbe/inc/al_gbe_hw.h",
+    "source_sha256": "1f2ded00c477e0239643630a0e3ec43a129ac77b995730936e10cb3483def952"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/gbe/inc/al_gbe_ll.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/gbe/inc/al_gbe_ll.h",
+    "source_sha256": "ecbba2500eeeedb66e487cbed945988c050eaa844ba3afdb7069b624d96571b5"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/gbe/inc/al_gbe_phy.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/gbe/inc/al_gbe_phy.h",
+    "source_sha256": "1e423f3f758212fb3fd2ac31fc2af71d5575ce8156e8104f2b995ae4c464c393"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/gbe/src/al_gbe_cfg.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/gbe/src/al_gbe_cfg.c",
+    "source_sha256": "0464478f1865aa4a2be2398ae8bae107f71bb52992cfd12ce818de5273b04410"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/gbe/src/al_gbe_dev.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/gbe/src/al_gbe_dev.c",
+    "source_sha256": "3a26ef248a374f92fd4871f8356a7c9353afb0e7e217683973368cc914416fbf"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/gbe/src/al_gbe_hal.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/gbe/src/al_gbe_hal.c",
+    "source_sha256": "b4a3d73b443000dad0371f21e590868f57ad3b0462a0507c9e5e08e4d5fac6c8"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/gbe/src/al_gbe_phy.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/gbe/src/al_gbe_phy.c",
+    "source_sha256": "b62828876e9898d759f2e9fb4f9efb9454cb94bf1ee66a63fdc674bb9e949a13"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/gbe/src/al_gbe_phy_rtl8211f.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/gbe/src/al_gbe_phy_rtl8211f.c",
+    "source_sha256": "69f598599479cae46bb327401252fb8837cff761adc9d3467fbdae7b29e9c30c"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/gbe/src/al_gbe_phy_yt8531dh.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/gbe/src/al_gbe_phy_yt8531dh.c",
+    "source_sha256": "7369b341efd29f5ec0a8a9eb04b31c5943d78fb9d147feffcd194cfcc7df61fb"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/gbe/src/al_gbe_phy_yt8531sh.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/gbe/src/al_gbe_phy_yt8531sh.c",
+    "source_sha256": "18961d0516637360cf7824ed4b17035e2fd7a3901b3bfb669c067dba7e49afc6"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/dmacahb/inc/al_dmacahb_dev.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/dmacahb/inc/al_dmacahb_dev.h",
+    "source_sha256": "64c8ba72a9cced79f73e1d1f792aa6b223a3b8344875d545b438dd0c4180bd13"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/dmacahb/inc/al_dmacahb_hal.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/dmacahb/inc/al_dmacahb_hal.h",
+    "source_sha256": "9ff871e8f1ee69b52b4c260cdfbf5d1dd6eef878f23b6365857935e9a47365ef"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/dmacahb/inc/al_dmacahb_hw.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/dmacahb/inc/al_dmacahb_hw.h",
+    "source_sha256": "982da9a6c175682e3e840d1eb56a3123210d846ad1c3f1d9ae1073b8b9d6035e"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/dmacahb/inc/al_dmacahb_ll.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/dmacahb/inc/al_dmacahb_ll.h",
+    "source_sha256": "0e505cb37aa26e99144f85b1c7096e3a4619b3577946a828a4a76f190ae81a7c"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/dmacahb/src/al_dmacahb_cfg.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/dmacahb/src/al_dmacahb_cfg.c",
+    "source_sha256": "3960a4f25a0251f4746689358e0a5a5d9bb2515abce4b1ad1be2a70240a55c81"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/dmacahb/src/al_dmacahb_dev.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/dmacahb/src/al_dmacahb_dev.c",
+    "source_sha256": "8e3596eaa1d06eaefc5dd6bc8e41b68870946c6eb8b7df6504e0e644f6d3d7a9"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/dmacahb/src/al_dmacahb_hal.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/dmacahb/src/al_dmacahb_hal.c",
+    "source_sha256": "5be25bf4bb8e5070847faeb7281c7d873dfcca9b57e66ad0221aeeb1cf42683f"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/dma/inc/al_dma_dev.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/dma/inc/al_dma_dev.h",
+    "source_sha256": "fc747abb41b59d62296c0d46f889fed92d4705faaa3e5d159f8ffd6473fb3742"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/dma/inc/al_dma_hal.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/dma/inc/al_dma_hal.h",
+    "source_sha256": "a61b0161086efb266f9d9a671532c929544ccae868b890ab193405d1e1df6e97"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/dma/inc/al_dma_hw.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/dma/inc/al_dma_hw.h",
+    "source_sha256": "8218d7ed57d03eb98135567a7ec329de6ad605c4969bb62b1e1edd7641b68fe6"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/dma/src/al_dma_cfg.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/dma/src/al_dma_cfg.c",
+    "source_sha256": "f2033b778dcfabb8a4a7450a64c68a6bee7c69fb01c2b408a1ab5f8db5bb0b44"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/dma/src/al_dma_dev.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/dma/src/al_dma_dev.c",
+    "source_sha256": "a345dc13a9094b29fe2e90636d0f8619ace025b6bde6bb02c24c2e41075e2662"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/dma/src/al_dma_hal.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/dma/src/al_dma_hal.c",
+    "source_sha256": "657350915b37923fc80db0982c66517344eb8c229c5b52d19b25f7d34f9b5444"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/adc/inc/al_adc_dev.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/adc/inc/al_adc_dev.h",
+    "source_sha256": "8cb1a64ceb72466dbc7a708316922b7bf92e85cbf6e6a558493ba93f77c835e4"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/adc/inc/al_adc_hal.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/adc/inc/al_adc_hal.h",
+    "source_sha256": "737175c79030c0e778f6f338cca5fb4f7cea19d5f8f8d6f1feda61a92566e5d9"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/adc/inc/al_adc_hw.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/adc/inc/al_adc_hw.h",
+    "source_sha256": "0665b78ef4b6cf521dd5b110436c80e640f5886dd2b40f231ce37593a5902fc2"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/adc/inc/al_adc_ll.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/adc/inc/al_adc_ll.h",
+    "source_sha256": "64cb226822cd1f502fd9bf19ab11981807dd24e402b37f79fc1de0f9cfcc22e2"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/adc/src/al_adc_cfg.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/adc/src/al_adc_cfg.c",
+    "source_sha256": "a5648be27fefdfbc90b2a4b7cb0b21daa9658b92f37c32f8f2b90f6f363f8f97"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/adc/src/al_adc_dev.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/adc/src/al_adc_dev.c",
+    "source_sha256": "36d6e9e219b42a92e131fd515fc2a18bf3028053d4c33f27e6da8ae2cf7a65b8"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/adc/src/al_adc_hal.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/driver/ps_driver/adc/src/al_adc_hal.c",
+    "source_sha256": "bb9af3ee64ba8ac89a8da0b2be2459059a74c3bfba5dd5eb8af52898c4cc0080"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/chip/dr1x90/dr1m90/inc/al_chip.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/chip/dr1x90/dr1m90/inc/al_chip.h",
+    "source_sha256": "552af9bb147fc412b62a01f2cc144038ca49b0681d34ab68176db8b686c6d0ba"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/chip/dr1x90/dr1m90/inc/al_mmu.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/chip/dr1x90/dr1m90/inc/al_mmu.h",
+    "source_sha256": "7a6a1d3ac46224f3817f8de43aad96be49a59e114aa995440508ddc4eb11fac7"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/chip/dr1x90/dr1m90/lds/gcc_dr1m90_ddr_aarch32.ld",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/chip/dr1x90/dr1m90/lds/gcc_dr1m90_ddr_aarch32.ld",
+    "source_sha256": "3da8dada2be9e409aa9c40c1486441c674ac03824d08fd298c8dc8b55be95343"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/chip/dr1x90/dr1m90/lds/gcc_dr1m90_ddr_aarch64.ld",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/chip/dr1x90/dr1m90/lds/gcc_dr1m90_ddr_aarch64.ld",
+    "source_sha256": "c6ebbd1505d1a12dc94a95aa53d8b2439d03f490bb3d9ecde64f374a1c757325"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/chip/dr1x90/dr1m90/lds/gcc_dr1m90_ocm_aarch32.ld",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/chip/dr1x90/dr1m90/lds/gcc_dr1m90_ocm_aarch32.ld",
+    "source_sha256": "8a6b3c8a6d57066d7f1682b8b0d4f1be27111ed262f740ff99425bee38321b7e"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/chip/dr1x90/dr1m90/lds/gcc_dr1m90_ocm_aarch64.ld",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/chip/dr1x90/dr1m90/lds/gcc_dr1m90_ocm_aarch64.ld",
+    "source_sha256": "e74d1f324a4abe5941b8da44d62ef10f20e149a18ab6d486049d17c58257a3fc"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/chip/dr1x90/dr1m90/lds/gcc_dr1m90_xip_aarch64.ld",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/chip/dr1x90/dr1m90/lds/gcc_dr1m90_xip_aarch64.ld",
+    "source_sha256": "05ff097212834abab0b5d304858ba9da2942b57af19156791d68fb44317d04f5"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/chip/dr1x90/dr1m90/src/al_dr1m90.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/chip/dr1x90/dr1m90/src/al_dr1m90.c",
+    "source_sha256": "1d4326a6e40aa44cc938aa3750708306778b79b8d92d0c6c462fbc4856f05f97"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/chip/dr1x90/dr1m90/src/al_gic.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/chip/dr1x90/dr1m90/src/al_gic.c",
+    "source_sha256": "3ed536dcd9758d73f008532b2160dab48b5672e08234d5777fb2f0e0cfd125ea"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/chip/dr1x90/dr1m90/src/al_mpu.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/chip/dr1x90/dr1m90/src/al_mpu.c",
+    "source_sha256": "3e56b2c863c33498e8e43f36e4f08be35fabd2fd8b5c06de456d81bb8147a4a6"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/chip/dr1x90/common/inc/al_hwcfg.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/chip/dr1x90/common/inc/al_hwcfg.h",
+    "source_sha256": "31f4b6045de49b4f14adb3ef6012855aae86818de0b51d38a21c39c8e143595c"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/chip/dr1x90/common/inc/al_top.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/chip/dr1x90/common/inc/al_top.h",
+    "source_sha256": "e15b5d228a6e3b03058809b8b1045c281c0773181e883a969c6a9a817d8676b3"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/chip/dr1x90/common/src/al_chip.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/chip/dr1x90/common/src/al_chip.c",
+    "source_sha256": "c141b57ed65362afb652ff53c3b6c846e3f8263f751635df4efe44e5e21ef662"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/chip/dr1x90/common/src/al_top.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/chip/dr1x90/common/src/al_top.c",
+    "source_sha256": "5581f8b601b9070f246e1b06ff0e5c6df24adbcf56d04fe08886ead19c7df361"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/arch/common/inc/al_arch_sysops.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/arch/common/inc/al_arch_sysops.h",
+    "source_sha256": "c5c24589b35da981d022ac51e8a96bd398fbfa37687f528bc7580070304021e8"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/arch/arm/common/sys_timer/src/al_sys_timer.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/arch/arm/common/sys_timer/src/al_sys_timer.c",
+    "source_sha256": "5115b925f331bf98686957e8f480880068dea90b170ede9d16c65cbe661033f1"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/arch/arm/common/gic_v3/inc/al_gicv3.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/arch/arm/common/gic_v3/inc/al_gicv3.h",
+    "source_sha256": "4f29d7070fabe4bf59b2a07c4d9b8a618d4437c1c4220472a33da62248117a42"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/arch/arm/common/gic_v3/inc/al_gicv3_common.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/arch/arm/common/gic_v3/inc/al_gicv3_common.h",
+    "source_sha256": "0a73e9b14f726ebc41121f7899d823729577ee0d29489c6aa7ce0ebeeef6436b"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/arch/arm/common/gic_v3/inc/al_gicv3_dist.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/arch/arm/common/gic_v3/inc/al_gicv3_dist.h",
+    "source_sha256": "5913db5a44d49c90f3c10871240e4cf60f9643f79c080a46a21adf1355a1ac6d"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/arch/arm/common/gic_v3/inc/al_gicv3_private.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/arch/arm/common/gic_v3/inc/al_gicv3_private.h",
+    "source_sha256": "efae767d32c9ebc1d430c89f8550b5f72962a1ac63cf6ca02a1e32af00fabee0"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/arch/arm/common/gic_v3/inc/al_gicv3_rdist.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/arch/arm/common/gic_v3/inc/al_gicv3_rdist.h",
+    "source_sha256": "d3924e34e3a595a292a09f4f20c17a1006772f6545ad9e26648aab73ee7599e8"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/arch/arm/common/gic_v3/src/al_gicv3.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/arch/arm/common/gic_v3/src/al_gicv3.c",
+    "source_sha256": "f79f4941d97c71050073e86018ee841fe84d090858e347b83dface2e42d973d0"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/arch/arm/common/gic_v3/src/al_gicv3_main.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/arch/arm/common/gic_v3/src/al_gicv3_main.c",
+    "source_sha256": "8bdd5f48012b22a75da322584027b1808d6c4e831082c0e9ffc9b84d41cee172"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/arch/arm/common/gic_v3/src/al_gicv3_private.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/arch/arm/common/gic_v3/src/al_gicv3_private.c",
+    "source_sha256": "9055e7173e932a24bb3f92dfbdfacebb54409a095b066d32d2d894ccf6a3aa47"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch64/cortex-a/inc/al_aarch64_core.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch64/cortex-a/inc/al_aarch64_core.h",
+    "source_sha256": "56f35ca4962537c75f2ec1a8b29d62e3a017b9e1b5a2af9a9cb3a656004ea31b"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch64/cortex-a/inc/al_aarch64_macro.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch64/cortex-a/inc/al_aarch64_macro.h",
+    "source_sha256": "9e139a4a54206f6c2ab631c1a80858b531fcbf36dca198edfbc035b975940d43"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch64/cortex-a/inc/al_aarch64_sysreg.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch64/cortex-a/inc/al_aarch64_sysreg.h",
+    "source_sha256": "4b595c163c67df5866e90281e8d437a89578132dde86d3e2147d9af58efc4611"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch64/cortex-a/src/al_aarch64_backtrace.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch64/cortex-a/src/al_aarch64_backtrace.c",
+    "source_sha256": "28cb7bf2d1b9032376f92876400fcb2ddb1b1e1ccf77ea314d4eeac06aba72b3"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch64/cortex-a/src/al_aarch64_core.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch64/cortex-a/src/al_aarch64_core.c",
+    "source_sha256": "e450b397e37f6c494b28312b4c0e54b8580ed95553b42a79659d23f942bc7f33"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch64/cortex-a/src/al_aarch64_cpu.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch64/cortex-a/src/al_aarch64_cpu.c",
+    "source_sha256": "aa4581c40e34ca72fb7ba71c630ea6f23ba757f1b6a2fcdce08e7125e69ea19b"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch64/cortex-a/src/al_aarch64_exception.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch64/cortex-a/src/al_aarch64_exception.c",
+    "source_sha256": "71904413f54829ddfa9ef66d45ea4f4f4ff9d0950897805e8fb92b7d31a42a07"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch64/cortex-a/src/al_aarch64_mem.S",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch64/cortex-a/src/al_aarch64_mem.S",
+    "source_sha256": "751eb6e4894cc303fea86e2278d4111409613f52985921c3d5cb45a1d06efd4f"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch64/cortex-a/src/al_aarch64_mmu.S",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch64/cortex-a/src/al_aarch64_mmu.S",
+    "source_sha256": "ae0e5df7b1493973052bd2c70f84a1731b7a4be6b3562c9687c74532e2f9d7c5"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch64/cortex-a/src/al_aarch64_pagetables.S",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch64/cortex-a/src/al_aarch64_pagetables.S",
+    "source_sha256": "3cdb87b4c551f9f5bbb5206eb0e3c68707d4d7791a0819fe865b996d3b40a149"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch64/cortex-a/src/al_aarch64_semihost.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch64/cortex-a/src/al_aarch64_semihost.c",
+    "source_sha256": "a7ca80fe5e8c07691a1a2a89bcaa0215c042974b60a1e2f97ce72225213cdaad"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch64/cortex-a/src/al_aarch64_smp_start.S",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch64/cortex-a/src/al_aarch64_smp_start.S",
+    "source_sha256": "7d34311c6120677339386469ec2f051cd52400b218ad2b291479e5ae070caa52"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch64/cortex-a/src/al_aarch64_start.S",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch64/cortex-a/src/al_aarch64_start.S",
+    "source_sha256": "3c7dbcda9690f8817209ed95c036ddb825763372e593e4bdf9ade1d76a65e843"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch64/cortex-a/src/al_aarch64_vectors.S",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch64/cortex-a/src/al_aarch64_vectors.S",
+    "source_sha256": "92cd444d65298fd7ed99d49e2762c884fd4c6c7d24b791ac837cee47174912fc"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch32/inc/al_aarch32_core.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch32/inc/al_aarch32_core.h",
+    "source_sha256": "3fee9801b716d8a92f85f534bb36119360725de31cdeffcb34036c5408db95c9"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch32/inc/al_aarch32_sysreg.h",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch32/inc/al_aarch32_sysreg.h",
+    "source_sha256": "8fb0fadbf79fa4fe0bf5fd6cb62b1cd7f6f8b4d794fdd0b7b3342e2692472bed"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch32/inc/asm_macros_common.S",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch32/inc/asm_macros_common.S",
+    "source_sha256": "b494ea787ada274b517646cc5e2152e146f94c3953560deb1dc14ab0fb131c6a"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch32/src/al_aarch32_core.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch32/src/al_aarch32_core.c",
+    "source_sha256": "8bf45a6c527bd7ecc09e601fd7ad7d82b20f77ba21d771a300ca939f404682c5"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch32/src/al_aarch32_mem.S",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch32/src/al_aarch32_mem.S",
+    "source_sha256": "8453fa06461a0c479a5907f92f28615b1d1635cae90821c8ae120993381a62a7"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch32/src/al_aarch32_mmu.S",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch32/src/al_aarch32_mmu.S",
+    "source_sha256": "64168225fee91c7908d37ecfdab70a51c4e1bec15d212e799e35cc38a24587af"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch32/src/al_aarch32_pagetables.S",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch32/src/al_aarch32_pagetables.S",
+    "source_sha256": "6d037f09b1b6c93aa10244b8da1f578eff377bd3c9d336e4a277ba4b172d043b"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch32/src/al_aarch32_semihost.c",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch32/src/al_aarch32_semihost.c",
+    "source_sha256": "d98001a2e8fe593358f3a77c7711994fa3ae702dd76abc7285f2c5cea88d9ad4"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch32/src/al_aarch32_start.S",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch32/src/al_aarch32_start.S",
+    "source_sha256": "a9b80434c99a3b9f5556918111a44c7a047cc832b92d3290447033c4504ac402"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch32/src/al_aarch32_vectors.S",
+    "target": "fpga/fd/soc_base/dr1m90_fpsoc_cpu0/arch/arm/armv8/aarch32/src/al_aarch32_vectors.S",
+    "source_sha256": "5fe965f205577d286884001d9d4e601f9dd10e9614f3bf020c7b7bd1d70a4072"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/3rdparty/lib/FATFS/diskio.c",
+    "target": "fpga/fd/soc_base/3rdparty/lib/FATFS/diskio.c",
+    "source_sha256": "2363f11922157b17b2618c703e792e2c795a2eef692956f31ec7dcc9ae977510"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/3rdparty/lib/FATFS/diskio.h",
+    "target": "fpga/fd/soc_base/3rdparty/lib/FATFS/diskio.h",
+    "source_sha256": "5ed319d0faffd189f9430b766f5b35f0c2c93ba509595cb1f8e221eaee6d9894"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/3rdparty/lib/FATFS/ff.c",
+    "target": "fpga/fd/soc_base/3rdparty/lib/FATFS/ff.c",
+    "source_sha256": "7473358e459c7acef79128330ee29dc889b7a276f232efb7e13b2397b55eb224"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/3rdparty/lib/FATFS/ff.h",
+    "target": "fpga/fd/soc_base/3rdparty/lib/FATFS/ff.h",
+    "source_sha256": "324e6a45d0a92e13e6a0a5701945e691f7506028af34f247d4dd83b240bd68c8"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/3rdparty/lib/FATFS/ffconf.h",
+    "target": "fpga/fd/soc_base/3rdparty/lib/FATFS/ffconf.h",
+    "source_sha256": "fca6391420af9934852f2c8cefb528c8967e2c7710dec321ca9f3b791a2f8667"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/3rdparty/lib/FATFS/ffsystem.c",
+    "target": "fpga/fd/soc_base/3rdparty/lib/FATFS/ffsystem.c",
+    "source_sha256": "07ac1540344dc68c69d4fb4bd8ca3ec8ccb6cf5b6e203d4697dd3b7de8e1e308"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/3rdparty/lib/FATFS/ffunicode.c",
+    "target": "fpga/fd/soc_base/3rdparty/lib/FATFS/ffunicode.c",
+    "source_sha256": "b519b20a6de1ceea6ae01421480d0137d03abe788b4e6553b2153d2a8591b840"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/3rdparty/lib/FATFS/Makefile",
+    "target": "fpga/fd/soc_base/3rdparty/lib/FATFS/Makefile",
+    "source_sha256": "d9676a4337db4dd299b024cf9cf6b01db8b78a6f87ca0b58dc3fb8220a74e0fd"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/3rdparty/lib/semihost/al_semihost.c",
+    "target": "fpga/fd/soc_base/3rdparty/lib/semihost/al_semihost.c",
+    "source_sha256": "f0bceacc12a4949eb97a2bd12353d41459208e369b44fb47aa45d45cc3e521b2"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/3rdparty/lib/semihost/al_semihost.h",
+    "target": "fpga/fd/soc_base/3rdparty/lib/semihost/al_semihost.h",
+    "source_sha256": "c6086e1f5277cd472706aa63e8521b906b44a1bc97b031df8c2166741c09c067"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/3rdparty/lib/semihost/Makefile",
+    "target": "fpga/fd/soc_base/3rdparty/lib/semihost/Makefile",
+    "source_sha256": "5105f54de85829e5285ff947536392db1e0964cb3c5d32760c3790fa37559222"
+  },
+  {
+    "source": "code_package/boat_common.h",
+    "target": "legacy/phytium/boat_common.h",
+    "source_sha256": "87e563e1f32e87c63e5af837972dd800693deb13074a1cf357b7749adb74943d"
+  },
+  {
+    "source": "code_package/ec20.c",
+    "target": "legacy/phytium/ec20.c",
+    "source_sha256": "388b7ff3f08330484eb41ec7e48f9d161671f11f475704f13a1b873dceffc518"
+  },
+  {
+    "source": "code_package/ec20.h",
+    "target": "legacy/phytium/ec20.h",
+    "source_sha256": "22adedea6503b89400e463feb765c84530606e8123783e6ade08272bb4d93bf9"
+  },
+  {
+    "source": "code_package/gpio.c",
+    "target": "legacy/phytium/gpio.c",
+    "source_sha256": "526a82054d32eb6b99d76fc612fa53f366cd130b599e3969ee6a431fd0efbc20"
+  },
+  {
+    "source": "code_package/gpio.h",
+    "target": "legacy/phytium/gpio.h",
+    "source_sha256": "6916188725cbe6007a1d9faa4a634b917048e83ad2695a1271cf5fdadddf9e25"
+  },
+  {
+    "source": "code_package/gps.c",
+    "target": "legacy/phytium/gps.c",
+    "source_sha256": "91f55e1279dbcf01fed8845b53e913517ea2f76afcd447b8e3ffdf3782bb340a"
+  },
+  {
+    "source": "code_package/gps.h",
+    "target": "legacy/phytium/gps.h",
+    "source_sha256": "578cb13a65ebf63687425da907fd3776a05f36de5a37220b08f6e0de6307ff60"
+  },
+  {
+    "source": "code_package/gps_probe.c",
+    "target": "legacy/phytium/gps_probe.c",
+    "source_sha256": "faceff59d4ab42f47415a6bedd7cbff67c19fafa2bda7a887baf336e2923f939"
+  },
+  {
+    "source": "code_package/main.c",
+    "target": "legacy/phytium/main.c",
+    "source_sha256": "f4f04c9e07653def0c28514b722aff11fa16e09378da930496781e2563880bf6"
+  },
+  {
+    "source": "code_package/motor.c",
+    "target": "legacy/phytium/motor.c",
+    "source_sha256": "3d8aba476e81b547f4f1abf70cb6f35e1b0e4f7ec6e51b045af8503621f621ce"
+  },
+  {
+    "source": "code_package/motor.h",
+    "target": "legacy/phytium/motor.h",
+    "source_sha256": "33c1c63ccf6c97e4e121a1cfa62fdb287369f29ff7b110e260d2be5cd4f49562"
+  },
+  {
+    "source": "code_package/motor_test.c",
+    "target": "legacy/phytium/motor_test.c",
+    "source_sha256": "add048c51b076c4205063e7982cced0dca0b4a6a6a2a7c6f691089726a6c597d"
+  },
+  {
+    "source": "code_package/radar.c",
+    "target": "legacy/phytium/radar.c",
+    "source_sha256": "9723ac7d2bdf84e8497ec4574668dd3c77f2f4a1bc6a2876829387f2832730fd"
+  },
+  {
+    "source": "code_package/radar.h",
+    "target": "legacy/phytium/radar.h",
+    "source_sha256": "a0d747e3afc5e21ac08759c4bf681038a9ff0ba4bc68ed81ce95d44340c17109"
+  },
+  {
+    "source": "code_package/README.md",
+    "target": "legacy/phytium/README.md",
+    "source_sha256": "0e2efc323c79c00d6d2c089fad63c9850d0486603d08f38772a69457d1ac90b6"
+  },
+  {
+    "source": "code_package/servo.c",
+    "target": "legacy/phytium/servo.c",
+    "source_sha256": "0b2e9ceb24572cbd434cf14e8c46f7dec928ab846f42c866c7980843a59f7ce2"
+  },
+  {
+    "source": "code_package/servo.h",
+    "target": "legacy/phytium/servo.h",
+    "source_sha256": "1ac8b036de9164d9961489cebcec667d2cc9102d3442261b4a3074708d1bbd22"
+  },
+  {
+    "source": "code_package/switch.c",
+    "target": "legacy/phytium/switch.c",
+    "source_sha256": "8bbdb5ec02874c268eee55f4dac713e6d42cdc2fcb3e22ee07f667db302ac5a8"
+  },
+  {
+    "source": "code_package/switch.h",
+    "target": "legacy/phytium/switch.h",
+    "source_sha256": "276c027700f300fb058d2b2d520f8272e6ae1b2525e1ccf464b1927cd135a8c8"
+  },
+  {
+    "source": "code_package/vision.py",
+    "target": "legacy/phytium/vision.py",
+    "source_sha256": "fc2c1847f2784f4ecbcc033898fc1bbdd30d7f3fb474dc11a10ca4e8728af5e3"
+  },
+  {
+    "source": "code_package/visual_servo.c",
+    "target": "legacy/phytium/visual_servo.c",
+    "source_sha256": "cab3771c76788896c8ec5adc564d51d65257aeb349c98deccd846545f30f2a07"
+  },
+  {
+    "source": "code_package/visual_servo.h",
+    "target": "legacy/phytium/visual_servo.h",
+    "source_sha256": "13e0dd93d5336cc0bac66ed5fd9b250ec6a898872af66d250004f10550306175"
+  },
+  {
+    "source": "code_package/web_server_README.md",
+    "target": "legacy/phytium/web_server_README.md",
+    "source_sha256": "44cc7a35a0613cd5a5cfb42bd4df8c65d216a11f17484419523f65befdcd92a5"
+  },
+  {
+    "source": "code_package/执行测试步骤.md",
+    "target": "legacy/phytium/执行测试步骤.md",
+    "source_sha256": "ee4a75c8def8d0e7b383a9422cc47675318a7f445bd89e29472c6fabf3501c3b"
+  },
+  {
+    "source": "code_package/软件平台说明.md",
+    "target": "legacy/phytium/软件平台说明.md",
+    "source_sha256": "774e66c442228457c933deed8a7579707f5f066dfa08c6ab5d45935e377ac320"
+  },
+  {
+    "source": "code_package/Makefile",
+    "target": "legacy/phytium/Makefile",
+    "source_sha256": "61c9c3e950e9bc1896b103347212aa1c27bae0216555267a32d07e9ca1b6803c"
+  },
+  {
+    "source": "code_package/motor_test.c",
+    "target": "linux/tools/motor_test.c",
+    "source_sha256": "add048c51b076c4205063e7982cced0dca0b4a6a6a2a7c6f691089726a6c597d"
+  },
+  {
+    "source": "code_package/gps_probe.c",
+    "target": "linux/tools/gps_probe.c",
+    "source_sha256": "faceff59d4ab42f47415a6bedd7cbff67c19fafa2bda7a887baf336e2923f939"
+  },
+  {
+    "source": "code_package/boat_common.h",
+    "target": "linux/tools/boat_common.h",
+    "source_sha256": "87e563e1f32e87c63e5af837972dd800693deb13074a1cf357b7749adb74943d"
+  },
+  {
+    "source": "v4l2_stream_test.c",
+    "target": "linux/tools/v4l2_stream_test.c",
+    "source_sha256": "ae09be8ce0287e299b12f9f7f46b98c28782c1446772265d71c5853a224e0be7"
+  },
+  {
+    "source": "v4l2_probe.c",
+    "target": "linux/tools/v4l2_probe.c",
+    "source_sha256": "96d473101a3e26b404d33dccb9db3439d7e8ea33726d09204a427f3fcd571c35"
+  },
+  {
+    "source": "v4l2_controls.c",
+    "target": "linux/tools/v4l2_controls.c",
+    "source_sha256": "69d61f5308cd2a63ab69a9c2e638f2561b32c6d02bde02abfe022824f987148e"
+  },
+  {
+    "source": "integration/BOOT_systembit_verified.bin",
+    "target": "artifacts/known-good/BOOT_systembit_verified.bin",
+    "source_sha256": "d037fcd7de6528bf6ad39515eecfad6ca146d8cbd042c36d47b29758a3ce5f47"
+  },
+  {
+    "source": "integration/uImage-wifi-20261031.lz4",
+    "target": "artifacts/known-good/uImage-wifi-20261031.lz4",
+    "source_sha256": "d2ff826d24fc2a8477a830c284ea038616e694c9d7499c87b061043e7db55407"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_base/platform/fpga_prj.bit",
+    "target": "artifacts/known-good/system.bit",
+    "source_sha256": "bcd5dd5a1658cac35bd0d2bd76aa47365820bfb5a4b51a0f564cb15037551f17"
+  },
+  {
+    "source": "boat_fpsoc/08_ps_uart_intr/soc_sdk/soc_fsbl/build/soc_fsbl.elf",
+    "target": "artifacts/known-good/fsbl.elf",
+    "source_sha256": "71b768a5c95418b5a725a96c9cf4c880ff2a8657752797225f6cb6af3d00cbfc"
+  }
+]

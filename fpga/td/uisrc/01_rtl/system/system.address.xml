@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ipxact:address xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ipxact="http://www.accellera.org/XMLSchema/IPXACT/1685-2014" xmlns:anlogic="http" xsi:schemaLocation="http://www.accellera.org/XMLSchema/IPXACT/1685-2014 http://www.accellera.org/XMLSchema/IPXACT/1685-2014/index.xsd">
+    <ipxact:addressSources>
+        <ipxact:addressSource type="inst">
+            <ipxact:name>ARM Processor System</ipxact:name>
+            <ipxact:displayName>ARM_Processor_System_0</ipxact:displayName>
+            <ipxact:interfaceName>M_AXI_GP0</ipxact:interfaceName>
+            <ipxact:baseAddress>0x80000000</ipxact:baseAddress>
+            <ipxact:addressDests>
+                <ipxact:addressDest type="design port">
+                    <ipxact:name>M_AXI_GP0</ipxact:name>
+                    <ipxact:displayName>M_AXI_GP0</ipxact:displayName>
+                    <ipxact:interfaceName>M_AXI_GP0</ipxact:interfaceName>
+                    <ipxact:slaveSegName>reg</ipxact:slaveSegName>
+                    <ipxact:baseAddress>0x80000000</ipxact:baseAddress>
+                    <ipxact:highAddress>0x000000009FFFFFFF</ipxact:highAddress>
+                </ipxact:addressDest>
+            </ipxact:addressDests>
+        </ipxact:addressSource>
+    </ipxact:addressSources>
+</ipxact:address>

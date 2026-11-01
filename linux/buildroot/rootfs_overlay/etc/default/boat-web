@@ -1,0 +1,3 @@
+# FPGA servo registers exported by the FD design at AXI GP0 base address.
+# Enable only after booting the matching FPGA image; configure_sdk.py can set it.
+# FPGA_SERVO_MMIO_BASE=0x80010000

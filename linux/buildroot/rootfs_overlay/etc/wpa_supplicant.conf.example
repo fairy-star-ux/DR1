@@ -1,0 +1,7 @@
+ctrl_interface=/var/run/wpa_supplicant
+update_config=0
+network={
+    ssid="YOUR_WIFI_SSID"
+    psk="REPLACE_WITH_YOUR_OWN_PASSWORD"
+    key_mgmt=WPA-PSK
+}

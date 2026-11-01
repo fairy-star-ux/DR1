@@ -1,0 +1,19 @@
+#!/bin/sh
+# Built for the same kernel as the official AIC8800 WiFi modules.
+case "$1" in
+  start)
+    MODDIR=/lib/modules/$(uname -r)/kernel/drivers/usb/serial
+    for module in usbserial ch341; do
+      [ -d "/sys/module/$module" ] && continue
+      [ -r "$MODDIR/$module.ko" ] || {
+        echo "boat: missing $MODDIR/$module.ko"
+        exit 1
+      }
+      insmod "$MODDIR/$module.ko" || exit 1
+    done
+    ;;
+  stop) : ;;
+  restart) "$0" start ;;
+  *) echo "Usage: $0 {start|stop|restart}"; exit 1 ;;
+esac
+exit 0

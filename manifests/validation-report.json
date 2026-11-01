@@ -1,0 +1,121 @@
+{
+  "organization_date": "2026-11-01",
+  "host": "Ubuntu VM, Python 3.6.9",
+  "source_archive_sha256": "1342ea2d549d0c720764b1bd70ce5e3a76f9dd8e071475ae8b65cc2057f587c0",
+  "checks": [
+    {
+      "name": "offline-source-check",
+      "status": "pass",
+      "returncode": 0,
+      "output": "PASS: 625 source files; Python/XML, TD references, document links, credential patterns and MMIO defaults\nCredential patterns are a targeted check, not a guarantee about all possible secrets.\n"
+    },
+    {
+      "name": "14-hardware-free-tests",
+      "status": "pass",
+      "returncode": 0,
+      "output": "test_config_replacement (test_configure.ConfigureTests) ... ok\ntest_sdk_fixture_defaults_and_opt_in (test_configure.ConfigureTests) ... ok\ntest_angle_bounds (test_web.WebTests) ... ok\ntest_disabled_ptz_returns_unavailable (test_web.WebTests) ... ok\ntest_invalid_motor_shape (test_web.WebTests) ... ok\ntest_invalid_ptz_does_not_touch_hardware (test_web.WebTests) ... ok\ntest_motor_two_channels_and_clamp (test_web.WebTests) ... ok\ntest_nmea_no_fix (test_web.WebTests) ... ok\ntest_nmea_rmc (test_web.WebTests) ... ok\ntest_ptz_offsets (test_web.WebTests) ... ok\ntest_ultrasonic_boolean_validation (test_web.WebTests) ... ok\ntest_ultrasonic_modes (test_web.WebTests) ... ok\ntest_unconfigured_mmio_never_opens_mem (test_web.WebTests) ... ok\ntest_unknown_api (test_web.WebTests) ... ok\n\n----------------------------------------------------------------------\nRan 14 tests in 0.131s\n\nOK\n"
+    },
+    {
+      "name": "bash-syntax-build_linux.sh",
+      "status": "pass",
+      "returncode": 0,
+      "output": ""
+    },
+    {
+      "name": "bash-syntax-install_sd.sh",
+      "status": "pass",
+      "returncode": 0,
+      "output": ""
+    },
+    {
+      "name": "bash-syntax-make_boot.sh",
+      "status": "pass",
+      "returncode": 0,
+      "output": ""
+    },
+    {
+      "name": "sh-syntax-S35usb-serial",
+      "status": "pass",
+      "returncode": 0,
+      "output": ""
+    },
+    {
+      "name": "sh-syntax-S40aic-wifi",
+      "status": "pass",
+      "returncode": 0,
+      "output": ""
+    },
+    {
+      "name": "sh-syntax-S99boat-web",
+      "status": "pass",
+      "returncode": 0,
+      "output": ""
+    },
+    {
+      "name": "cross-compile-six-tools",
+      "status": "pass",
+      "returncode": 0,
+      "output": "make: Entering directory '/tmp/boat-repo-final-iw1q3xw7/linux'\nmkdir -p /tmp/boat-repo-final-iw1q3xw7/artifacts/tools\n/home/uisrc/uisrc-lab-anlogic/tools/aarch64-linux/bin/aarch64-linux-gnu-gcc -O2 -Wall -Wextra app/camera_capture.c -o /tmp/boat-repo-final-iw1q3xw7/artifacts/tools/camera_capture\n/home/uisrc/uisrc-lab-anlogic/tools/aarch64-linux/bin/aarch64-linux-gnu-gcc -O2 -Wall -Wextra -D_GNU_SOURCE tools/v4l2_stream_test.c -o /tmp/boat-repo-final-iw1q3xw7/artifacts/tools/v4l2_stream_test\n/home/uisrc/uisrc-lab-anlogic/tools/aarch64-linux/bin/aarch64-linux-gnu-gcc -O2 -Wall -Wextra -D_GNU_SOURCE tools/v4l2_probe.c -o /tmp/boat-repo-final-iw1q3xw7/artifacts/tools/v4l2_probe\n/home/uisrc/uisrc-lab-anlogic/tools/aarch64-linux/bin/aarch64-linux-gnu-gcc -O2 -Wall -Wextra -D_GNU_SOURCE tools/v4l2_controls.c -o /tmp/boat-repo-final-iw1q3xw7/artifacts/tools/v4l2_controls\n/home/uisrc/uisrc-lab-anlogic/tools/aarch64-linux/bin/aarch64-linux-gnu-gcc -O2 -Wall -Wextra -D_GNU_SOURCE -Itools tools/motor_test.c -o /tmp/boat-repo-final-iw1q3xw7/artifacts/tools/motor_test\n/home/uisrc/uisrc-lab-anlogic/tools/aarch64-linux/bin/aarch64-linux-gnu-gcc -O2 -Wall -Wextra -D_GNU_SOURCE -pthread -Itools tools/gps_probe.c tools/gps.c -o /tmp/boat-repo-final-iw1q3xw7/artifacts/tools/gps_probe\nmake: Leaving directory '/tmp/boat-repo-final-iw1q3xw7/linux'\n"
+    },
+    {
+      "name": "cross-compile-wifi-modules",
+      "status": "pass",
+      "returncode": 0,
+      "output": "make: Entering directory '/home/uisrc/uisrc-lab-anlogic/sources/linux'\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic_load_fw/aic_bluetooth_main.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic_load_fw/aicbluetooth.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic_load_fw/aicwf_usb.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic_load_fw/aic_txrxif.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic_load_fw/aicbluetooth_cmds.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic_load_fw/aic_compat_8800d80.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic8800_fdrv/rwnx_wakelock.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic_load_fw/aic_compat_8800d80x2.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic8800_fdrv/rwnx_msg_tx.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic8800_fdrv/rwnx_msg_rx.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic_load_fw/aicwf_rx_prealloc.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic_load_fw/md5.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic_load_fw/aicwf_txq_prealloc.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic8800_fdrv/rwnx_cmds.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic8800_fdrv/rwnx_utils.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic8800_fdrv/rwnx_irqs.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic8800_fdrv/rwnx_cfgfile.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic8800_fdrv/rwnx_strs.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic8800_fdrv/rwnx_rx.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic8800_fdrv/rwnx_tx.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic8800_fdrv/rwnx_pci.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic8800_fdrv/rwnx_platform.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic8800_fdrv/rwnx_main.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic8800_fdrv/rwnx_txq.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic8800_fdrv/rwnx_mod_params.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic8800_fdrv/rwnx_mesh.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic8800_fdrv/rwnx_dini.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic8800_fdrv/rwnx_v7.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic8800_fdrv/ipc_host.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic8800_fdrv/rwnx_tdls.o\n  LD [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic_load_fw/aic_load_fw.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic8800_fdrv/regdb.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic8800_fdrv/md5.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic8800_fdrv/aic_vendor.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic8800_fdrv/aic_priv_cmd.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic8800_fdrv/aicwf_compat_8800dc.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic8800_fdrv/aicwf_compat_8800d80.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic8800_fdrv/aicwf_compat_8800d80x2.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic8800_fdrv/rwnx_radar.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic8800_fdrv/aicwf_tcp_ack.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic8800_fdrv/usb_host.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic8800_fdrv/aicwf_txrxif.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic8800_fdrv/aicwf_usb.o\n  LD [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic8800_fdrv/aic8800_fdrv.o\n  MODPOST /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/Module.symvers\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic8800_fdrv/aic8800_fdrv.mod.o\n  CC [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic_load_fw/aic_load_fw.mod.o\n  LD [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic_load_fw/aic_load_fw.ko\n  LD [M]  /tmp/boat-repo-final-iw1q3xw7/artifacts/aic8800-build/aic8800_fdrv/aic8800_fdrv.ko\nmake: Leaving directory '/home/uisrc/uisrc-lab-anlogic/sources/linux'\n"
+    },
+    {
+      "name": "wifi-module-vermagic",
+      "status": "pass",
+      "returncode": 0,
+      "output": "6.1.111-rt42 SMP preempt mod_unload aarch64\n"
+    },
+    {
+      "name": "boot-packaging-with-existing-sdk-inputs",
+      "status": "pass",
+      "returncode": 0,
+      "output": "\n\n[INFO]   : Command line parsing completed successfully\n[INFO]   : BIF file parsing completed successfully\n[INFO]   : Parsing Partition Data to Image\n[INFO]   : Building image - the_ROM_image\n[INFO]   : /home/uisrc/uisrc-lab-anlogic/boards/DR1M/buildroot/output/fsbl.elf -- len: 1494280\n[INFO]   : /home/uisrc/uisrc-lab-anlogic/boards/DR1M/buildroot/output/u-boot.bin -- len: 925795\n[INFO]   : Building the Partition Header Table\n[INFO]   : After build \n           -- Dump of Binary Image ----\n   Offset      Length     Reserve     Name\n   00000000   00000300   00000000   BootHeader\n   00000000   00000040   00000000   PartitionHeader_fsbl.elf.0\n   00000000   00000040   00000000   PartitionHeader_system.bit.0\n   00000000   00000040   00000000   PartitionHeader_u-boot.bin.0\n   00000000   0002dab0   00000000   fsbl.elf.0\n   00000000   00000020   00000000   sha2checksum_fsbl.elf.0\n   00000000   003dd360   00000000   system.bit.0\n   00000000   00000020   00000000   sha2checksum_system.bit.0\n   00000000   000e2063   00000000   u-boot.bin.0\n   00000000   00000020   00000000   sha2checksum_u-boot.bin.0\n           -- End of Dump\n\n[INFO]   : After align \n           -- Dump of Binary Image ----\n   Offset      Length     Reserve     Name\n   00000000   00000300   00000000   BootHeader\n   00000300   00000040   00000000   PartitionHeader_fsbl.elf.0\n   00000340   00000040   00000000   PartitionHeader_system.bit.0\n   00000380   00000040   00000000   PartitionHeader_u-boot.bin.0\n   000003c0   0002dab0   00000000   fsbl.elf.0\n   0002de80   00000020   00000000   sha2checksum_fsbl.elf.0\n   0002dec0   003dd360   00000000   system.bit.0\n   0040b240   00000020   00000000   sha2checksum_system.bit.0\n   0040b280   000e2063   00000000   u-boot.bin.0\n   004ed300   00000020   00000000   sha2checksum_u-boot.bin.0\n           -- End of Dump\n\n[INFO]   : Partition Information: \n[INFO]   : Image: fsbl.elf\n[INFO]   :        Partition 0: fsbl.elf.0,  Size: 187072\n\n[INFO]   : Image: system.bit\n[INFO]   :        Partition 1: system.bit.0,  Size: 4051840\n\n[INFO]   : Image: u-boot.bin\n[INFO]   :        Partition 2: u-boot.bin.0,  Size: 925824\n\n[INFO]   : After Link \n           -- Dump of Binary Image ----\n   Offset      Length     Reserve     Name\n   00000000   00000300   00000000   BootHeader\n   00000300   00000040   00000000   PartitionHeader_fsbl.elf.0\n   00000340   00000040   00000000   PartitionHeader_system.bit.0\n   00000380   00000040   00000000   PartitionHeader_u-boot.bin.0\n   000003c0   0002dab0   00000000   fsbl.elf.0\n   0002de80   00000020   00000000   sha2checksum_fsbl.elf.0\n   0002dec0   003dd360   00000000   system.bit.0\n   0040b240   00000020   00000000   sha2checksum_system.bit.0\n   0040b280   000e2063   00000000   u-boot.bin.0\n   004ed300   00000020   00000000   sha2checksum_u-boot.bin.0\n           -- End of Dump\n\n[INFO]   : sha2checksum_fsbl.elf.0 addresses 0002de80 is going forkwards 0002de70, fill gap with 0xff*16\n\n[INFO]   : system.bit.0 addresses 0002dec0 is going forkwards 0002dea0, fill gap with 0xff*32\n\n[INFO]   : sha2checksum_system.bit.0 addresses 0040b240 is going forkwards 0040b220, fill gap with 0xff*32\n\n[INFO]   : u-boot.bin.0 addresses 0040b280 is going forkwards 0040b260, fill gap with 0xff*32\n\n[INFO]   : sha2checksum_u-boot.bin.0 addresses 004ed300 is going forkwards 004ed2e3, fill gap with 0xff*29\n\n[INFO]   : sha2checksum_u-boot.bin.0 length 32 not align by 64 bytes, fill alignment with 0xff*32\n\n\nBootimage generated successfully!\n\nBootimage saved to /tmp/boat-repo-final-iw1q3xw7/artifacts/boot-check/BOOT.bin\n\nImage Name:   \nCreated:      Sat Oct 31 23:20:27 2026\nImage Type:   AArch64 Linux Script (uncompressed)\nData Size:    329 Bytes = 0.32 KiB = 0.00 MiB\nLoad Address: 00000000\nEntry Point:  00000000\nContents:\n   Image 0: 321 Bytes = 0.31 KiB = 0.00 MiB\nBOOT.bin generated; original SDK/kernel/rootfs untouched.\n"
+    },
+    {
+      "name": "existing-sdk-rootfs-completeness",
+      "status": "pass",
+      "returncode": 0,
+      "output": "PASS: complete rootfs, Web, startup scripts, AArch64 camera, USB serial, WiFi and depmod\nCheck WiFi credentials and root password privately; do not publish rootfs archives.\n"
+    }
+  ],
+  "diagnostic_binaries": {
+    "v4l2_probe": {
+      "aarch64": true,
+      "sha256": "d3f48c834432647b0f3c58c933cffdfd705031c05053564861b077316f086918"
+    },
+    "v4l2_stream_test": {
+      "aarch64": true,
+      "sha256": "07e4b61f5acfb35560536cc21a3cf9fcd0e1a9eed7548b63d4a3967faf39a050"
+    },
+    "motor_test": {
+      "aarch64": true,
+      "sha256": "25095b09521b82d56167f15a9dda2d1ce2b17bbe85a399cd9405f7c492449a0d"
+    },
+    "camera_capture": {
+      "aarch64": true,
+      "sha256": "5036393e466cd17bde62f5e1ea763e141ff62fe168e6984a62ba0ab4fa9ffa63"
+    },
+    "gps_probe": {
+      "aarch64": true,
+      "sha256": "8f2546e2497d8d8885fee90c67a33c7acfd1d6941d4173d37dcbea22d2c5cd7c"
+    },
+    "v4l2_controls": {
+      "aarch64": true,
+      "sha256": "0c95d40e08b23fbdb5fbdb868d30931b3de7d826490daa381f597c3c26c99b60"
+    }
+  },
+  "not_performed": [
+    "full clean TD synthesis and FD FSBL build",
+    "full clean kernel/Buildroot image rebuild",
+    "SD installation",
+    "cold power cycle",
+    "motor/servo physical motion",
+    "deploy edited Web to board"
+  ],
+  "rootfs_note": "Existing archive completeness only; it predates the organized Web button fix. New build uses --match-repo.",
+  "overall": "pass"
+}
