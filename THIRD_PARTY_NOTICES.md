@@ -10,7 +10,6 @@
 | `linux/kernel`、`linux/boot` | 官方 Linux/U-Boot 的配置和板级设备树快照；相应文件许可和官方项目许可适用 |
 | `third_party/sources/linux` | 从所用 Linux 源码保留的 COPYING、LICENSES 原文 |
 | `third_party/sources/u-boot` | 从所用 U-Boot 源码保留的 Licenses 原文 |
-| `legacy/phytium` | 原工程历史程序，仅供迁移参考；保留文件原有版权信息 |
 
 安路 SDK、工具链、TD/FD 安装程序、厂商 PDF、模型权重、固件二进制和完整系统镜像均不作为 Git 源码上传。`artifacts/` 的本地产物用于核对来源，默认被忽略；镜像还可能包含本地 root/WiFi 配置。
 

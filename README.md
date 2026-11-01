@@ -13,7 +13,7 @@ FPGA 输出三路舵机 PWM；Linux 提供 Web、电机串口、GPS、USB 摄像
 - FPGA 通过 AXI GP0 寄存器接受 Linux 控制，基地址 `0x80010000`。
 - FSBL 在 Linux 前加载 `BOOT.bin` 中的位流；重启后无需再次用 JTAG 下载。
 
-目前不把旧程序的 4G/OneNET、YOLO/NPU、自主避障或超声波测距算作已移植功能。
+4G/OneNET、YOLO/NPU、自主避障和超声波测距不在当前版本实现范围。
 
 ## 目录
 
@@ -30,7 +30,6 @@ linux/
   boot/                  SD ext4 启动命令、U-Boot 配置和设备树
 scripts/                 配置、编译、打包、SD 安装、检查和测试
 docs/                    当前 DR1M90 平台说明、接线、复现和测试步骤
-legacy/phytium/          旧飞腾派 C/YOLO/4G 程序，只作迁移参考
 manifests/               源文件来源、已验证产物的 SHA-256 和验证报告
 third_party/             第三方版权/许可证原文
 artifacts/               本地已验证镜像、模块、固件；Git 忽略
