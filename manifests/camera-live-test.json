@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-01",
+  "initial_deployment": {
+    "multipart_jpeg_lengths": [64904, 64728, 64880, 64792, 64720],
+    "jpeg_markers_and_lengths": "passed",
+    "snapshot_while_stream_open": "passed",
+    "photos_deleted": 3,
+    "empty_gallery_after_clear": true
+  },
+  "offline_tests": 18,
+  "cross_compile": "ARM64 GCC 7.5 -O2 -Wall -Wextra passed",
+  "after_board_restart": {
+    "web_autostart": "passed",
+    "camera_enumeration": "passed",
+    "video_frames": "failed; HTTP 503",
+    "camera_only_usb_reset": "did not restore frames",
+    "original_capture_comparison": "no photo within 15 seconds while Web stopped",
+    "next_action": "physically reconnect camera and repeat preview test"
+  },
+  "image_content_visually_checked": false
+}
