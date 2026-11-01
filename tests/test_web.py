@@ -4,6 +4,7 @@ import io
 import json
 import os
 from pathlib import Path
+import tempfile
 from types import SimpleNamespace
 import unittest
 from unittest.mock import patch
@@ -99,6 +100,43 @@ class WebTests(unittest.TestCase):
     def test_unknown_api(self):
         _, code = self.post('/api/not-present', {})
         self.assertEqual(code, 404)
+
+    def test_clear_requires_confirmation_and_only_deletes_photos(self):
+        with tempfile.TemporaryDirectory() as directory:
+            image = Path(directory) / 'one.jpg'
+            other = Path(directory) / 'keep.txt'
+            image.write_bytes(b'photo')
+            other.write_text('keep')
+            with patch.object(web, 'PHOTO_DIR', directory):
+                body, code = self.post('/api/photos/clear', {'confirm': False})
+                self.assertEqual(code, 400)
+                self.assertTrue(image.exists())
+                body, code = self.post('/api/photos/clear', {'confirm': True})
+                self.assertEqual(code, 200)
+                self.assertEqual(body, {'ok': True, 'deleted': 1})
+                self.assertFalse(image.exists())
+                self.assertTrue(other.exists())
+
+    def test_clear_get_not_allowed(self):
+        handler = SimpleNamespace(path='/api/photos/clear')
+        with patch.object(web, 'json_response') as response:
+            web.Handler.do_GET(handler)
+        self.assertEqual(response.call_args[0][2], 405)
+
+    def test_snapshot_uses_shared_video_frame(self):
+        with tempfile.TemporaryDirectory() as directory:
+            jpeg = b'\xff\xd8test-frame\xff\xd9'
+            with patch.object(web, 'PHOTO_DIR', directory), patch.object(web, 'camera_frame', return_value=(jpeg, 1)):
+                body, code = self.post('/api/capture', {})
+            self.assertEqual(code, 200)
+            self.assertEqual((Path(directory) / body['file']).read_bytes(), jpeg)
+
+    def test_camera_timeout_returns_503(self):
+        with tempfile.TemporaryDirectory() as directory:
+            with patch.object(web, 'PHOTO_DIR', directory), patch.object(web, 'camera_frame', side_effect=RuntimeError('no frames')):
+                body, code = self.post('/api/capture', {})
+            self.assertEqual(code, 503)
+            self.assertEqual(body['error'], 'no frames')
 
 if __name__ == '__main__':
     unittest.main()

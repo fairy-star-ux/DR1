@@ -175,6 +175,82 @@ def gps_worker():
             time.sleep(3)
 
 
+# One V4L2 producer is shared by all viewers and snapshot requests.
+frame_condition = threading.Condition()
+frame_start_lock = threading.Lock()
+frame_thread = None
+latest_frame = None
+frame_sequence = 0
+frame_updated = 0.0
+frame_error = None
+
+
+def camera_worker():
+    global latest_frame, frame_sequence, frame_updated, frame_error
+    while True:
+        process = None
+        try:
+            process = subprocess.Popen([CAPTURE, VIDEO, "--stream"], stdout=subprocess.PIPE, bufsize=0)
+            def read_exact(count):
+                data = bytearray()
+                deadline = time.monotonic() + 10
+                while len(data) < count:
+                    remaining = deadline - time.monotonic()
+                    if remaining <= 0 or not select.select([process.stdout], [], [], remaining)[0]:
+                        raise RuntimeError("摄像头无视频帧，请检查 USB 连接")
+                    chunk = os.read(process.stdout.fileno(), count - len(data))
+                    if not chunk:
+                        raise RuntimeError("摄像头采集程序已退出")
+                    data.extend(chunk)
+                return bytes(data)
+            while True:
+                size = struct.unpack("<I", read_exact(4))[0]
+                if not 100 < size <= 2 * 1024 * 1024:
+                    raise RuntimeError("摄像头帧长度异常")
+                jpeg = read_exact(size)
+                if not jpeg.startswith(b"\xff\xd8") or not jpeg.endswith(b"\xff\xd9"):
+                    continue
+                with frame_condition:
+                    latest_frame = jpeg
+                    frame_sequence += 1
+                    frame_updated = time.monotonic()
+                    frame_error = None
+                    frame_condition.notify_all()
+        except Exception as exc:
+            with frame_condition:
+                latest_frame = None
+                frame_error = str(exc)
+                frame_condition.notify_all()
+        finally:
+            if process is not None:
+                if process.poll() is None:
+                    process.terminate()
+                try:
+                    process.wait(timeout=2)
+                except subprocess.TimeoutExpired:
+                    process.kill()
+                    process.wait()
+                process.stdout.close()
+        time.sleep(2)
+
+
+def camera_frame(after=-1, timeout=12):
+    global frame_thread
+    with frame_start_lock:
+        if frame_thread is None or not frame_thread.is_alive():
+            frame_thread = threading.Thread(target=camera_worker, daemon=True)
+            frame_thread.start()
+    deadline = time.monotonic() + timeout
+    with frame_condition:
+        while True:
+            if latest_frame is not None and frame_sequence > after and time.monotonic() - frame_updated < 3:
+                return latest_frame, frame_sequence
+            remaining = deadline - time.monotonic()
+            if remaining <= 0:
+                raise RuntimeError(frame_error or "等待摄像头视频帧超时")
+            frame_condition.wait(remaining)
+
+
 def json_response(handler, payload, status=200):
     data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
     handler.send_response(status)
@@ -189,7 +265,7 @@ HTML = r'''<!doctype html><meta charset="utf-8"><title>DR1M90 小船控制台</t
 <h1>DR1M90 小船控制台</h1>
 <section><h2>两路电机</h2><label>速度：<input id=speed type=range min=0 max=3600 value=3000 oninput="speedv.textContent=this.value"><b id=speedv>3000</b></label><div class=row><button onclick="drive(1)">前进</button><button onclick="drive(-1)">后退</button><button onclick="turn(-1)">左转</button><button onclick="turn(1)">右转</button><button onclick="motor(0,0,0,0)">停止</button></div><p>电机1/电机2 PWM：<input id=p1 type=number value=0><input id=p2 type=number value=0><button onclick="customMotor()">发送</button></p><p id=motor>未发送</p></section>
 <section><h2>GPS</h2><pre id=gps>读取中...</pre></section>
-<section><h2>摄像头</h2><button onclick="capture()">拍照</button><div id=photos></div></section>
+<section><h2>摄像头</h2><div><img id="liveView" style="max-width:100%;width:640px;max-height:none" src="/stream.mjpg" alt="正在连接摄像头实时画面" onerror="this.alt='实时画面连接失败，点击开启预览重试'"></div><button onclick="document.getElementById('liveView').src='/stream.mjpg?t='+Date.now()">开启预览</button><button onclick="document.getElementById('liveView').removeAttribute('src')">关闭预览</button><button onclick="capture()">拍照</button><button onclick="clearPhotos()">清除全部照片</button><p id=photoStatus></p><div id=photos></div></section>
 <section><h2>摄像头云台</h2><p>水平角度：<input id=pan type=range min=0 max=180 value=90 oninput="panv.textContent=this.value"><b id=panv>90</b>°　垂直角度：<input id=tilt type=range min=0 max=180 value=90 oninput="tiltv.textContent=this.value"><b id=tiltv>90</b>°</p><button onclick="setPtz()">设置云台角度</button></section>
 <section><h2>超声波舵机</h2><p>目标角度：<input id=ua type=range min=0 max=180 value=90 oninput="uav.textContent=this.value"><b id=uav>90</b>°</p><button onclick="setUltrasonic(true,false)">转到指定角度</button><button onclick="setUltrasonic(true,false)">启动并保持角度</button><button onclick="setUltrasonic(true,true)">启动往返扫描</button><button onclick="setUltrasonic(false,false)">停止</button><p id=fpga class=bad>检查中...</p></section>
 <script>
@@ -200,11 +276,12 @@ function drive(dir){let v=sv()*dir;motor(v,0,v,0)}
 function turn(dir){let v=sv();if(dir<0)motor(0,0,v,0);else motor(v,0,0,0)}
 function customMotor(){motor(Number(document.getElementById('p1').value),0,Number(document.getElementById('p2').value),0)}
 async function capture(){try{let j=await api('/api/capture',{method:'POST'});loadPhotos();alert('已保存 '+j.file)}catch(e){alert(e)}}
+async function clearPhotos(){if(!confirm('确定删除板子上保存的全部照片？此操作无法撤销。'))return;try{let j=await api('/api/photos/clear',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({confirm:true})});photoStatus.textContent='已删除 '+j.deleted+' 张照片';loadPhotos()}catch(e){photoStatus.textContent='清除失败：'+e}}
 async function setPtz(){try{let j=await api('/api/ptz',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({pan:Number(document.getElementById('pan').value),tilt:Number(document.getElementById('tilt').value)})});fpga.textContent=j.message}catch(e){fpga.textContent='云台控制失败：'+e}}
 async function setUltrasonic(enable,sweep){try{let j=await api('/api/ultrasonic',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({enable:enable,sweep:sweep,angle:Number(document.getElementById('ua').value)})});fpga.textContent=j.message}catch(e){fpga.textContent='超声波舵机控制失败：'+e}}
 async function refresh(){try{let j=await api('/api/status');gps.textContent=JSON.stringify(j.gps,null,2);fpga.textContent=j.fpga.message;fpga.className=j.fpga.servo_control?'ok':'bad';motorEl.textContent='当前PWM '+j.motor.join(',')+(j.motor_error?'；'+j.motor_error:'')}catch(e){gps.textContent=e}}
 async function loadPhotos(){let j=await api('/api/photos');photos.innerHTML=j.files.map(x=>'<img src="/photos/'+encodeURIComponent(x)+'">').join('')||'暂无照片'}
-let gps=document.getElementById('gps'),fpga=document.getElementById('fpga'),photos=document.getElementById('photos'),motorEl=document.getElementById('motor');refresh();loadPhotos();setInterval(refresh,2000)
+let gps=document.getElementById('gps'),fpga=document.getElementById('fpga'),photos=document.getElementById('photos'),photoStatus=document.getElementById('photoStatus'),motorEl=document.getElementById('motor');refresh();loadPhotos();setInterval(refresh,2000)
 </script>'''
 
 
@@ -217,6 +294,27 @@ class Handler(BaseHTTPRequestHandler):
         if path == "/":
             data = HTML.encode("utf-8")
             self.send_response(200); self.send_header("Content-Type", "text/html; charset=utf-8"); self.send_header("Content-Length", str(len(data))); self.end_headers(); self.wfile.write(data); return
+        if path == "/stream.mjpg":
+            try:
+                jpeg, sequence = camera_frame()
+            except Exception as exc:
+                json_response(self, {"ok": False, "error": str(exc)}, 503); return
+            self.send_response(200)
+            self.send_header("Content-Type", "multipart/x-mixed-replace; boundary=frame")
+            self.send_header("Cache-Control", "no-store, no-cache, must-revalidate")
+            self.send_header("Connection", "close")
+            self.end_headers()
+            self.connection.settimeout(10)
+            try:
+                while True:
+                    self.wfile.write(b"--frame\r\nContent-Type: image/jpeg\r\nContent-Length: " + str(len(jpeg)).encode() + b"\r\n\r\n" + jpeg + b"\r\n")
+                    self.wfile.flush()
+                    time.sleep(0.1)  # Bound each browser connection to about 10 FPS.
+                    jpeg, sequence = camera_frame(after=sequence)
+            except (OSError, RuntimeError):
+                pass
+            self.close_connection = True
+            return
         if path == "/api/status":
             with state_lock: payload = dict(state)
             json_response(self, payload); return
@@ -224,6 +322,8 @@ class Handler(BaseHTTPRequestHandler):
             os.makedirs(PHOTO_DIR, exist_ok=True)
             files = sorted((x for x in os.listdir(PHOTO_DIR) if x.lower().endswith((".jpg", ".jpeg"))), reverse=True)
             json_response(self, {"files": files}); return
+        if path == "/api/photos/clear":
+            json_response(self, {"ok": False, "error": "请使用 POST 清理照片"}, 405); return
         if path.startswith("/photos/"):
             name = os.path.basename(path[8:])
             if name != path[8:] or not re.fullmatch(r"[A-Za-z0-9_.-]+", name): self.send_error(404); return
@@ -242,30 +342,31 @@ class Handler(BaseHTTPRequestHandler):
             pwm = body.get("pwm")
             if not isinstance(pwm, list) or len(pwm) != 4: json_response(self, {"ok": False, "error": "pwm必须是4个数"}, 400); return
             ok, detail = motor_command(pwm); json_response(self, {"ok": ok, "command": detail} if ok else {"ok": False, "error": detail}, 200 if ok else 503); return
+        if path == "/api/photos/clear":
+            if body.get("confirm") is not True:
+                json_response(self, {"ok": False, "error": "需要明确确认删除"}, 400); return
+            try:
+                deleted = 0
+                with camera_lock:
+                    os.makedirs(PHOTO_DIR, exist_ok=True)
+                    for entry in os.scandir(PHOTO_DIR):
+                        if entry.is_file(follow_symlinks=False) and entry.name.lower().endswith((".jpg", ".jpeg")):
+                            os.unlink(entry.path)
+                            deleted += 1
+                    with state_lock:
+                        state["last_photo"] = None
+                json_response(self, {"ok": True, "deleted": deleted}); return
+            except Exception as exc:
+                json_response(self, {"ok": False, "error": str(exc)}, 500); return
         if path == "/api/capture":
             os.makedirs(PHOTO_DIR, exist_ok=True)
             filename = time.strftime("%Y%m%d_%H%M%S") + "_%03d.jpg" % int((time.time() * 1000) % 1000); output = os.path.join(PHOTO_DIR, filename)
             try:
                 with camera_lock:
-                    global last_capture_at
-                    wait = 1.0 - (time.time() - last_capture_at)
-                    if wait > 0: time.sleep(wait)
-                    out = err = b""
-                    for attempt in range(2):
-                        r = subprocess.Popen([CAPTURE, VIDEO, output], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-                        try:
-                            out, err = r.communicate(timeout=12)
-                        except subprocess.TimeoutExpired:
-                            r.kill(); out, err = r.communicate()
-                        if r.returncode == 0: break
-                        if attempt == 0: time.sleep(0.8)
-                    last_capture_at = time.time()
-                    if r.returncode:
-                        raise RuntimeError("摄像头采集超时或无视频帧，请重新插拔摄像头")
-                if r.returncode:
-                    detail = err.decode("utf-8", "replace") or out.decode("utf-8", "replace")
-                    raise RuntimeError(detail or "capture failed (exit %d)" % r.returncode)
-                with state_lock: state["last_photo"] = filename
+                    jpeg, _ = camera_frame()
+                    with open(output, "wb") as photo:
+                        photo.write(jpeg)
+                    with state_lock: state["last_photo"] = filename
                 json_response(self, {"ok": True, "file": filename}); return
             except Exception as exc:
                 json_response(self, {"ok": False, "error": str(exc)}, 503); return

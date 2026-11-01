@@ -27,6 +27,8 @@ GP0 的 `master_gp0_axi_aclk` 已接 `p2f_clk0`；PWM 参数 `CLK_HZ=49_995_000`
 | `/` | GET | 控制页面 |
 | `/api/status` | GET | 电机、GPS、FPGA 能力、最后照片 |
 | `/api/photos` | GET | 已保存照片列表 |
+| `/stream.mjpg` | GET | 实时 MJPEG，多浏览器共用一个摄像头采集进程 |
+| `/api/photos/clear` | POST | `{"confirm":true}` 删除照片目录中的全部 JPG/JPEG |
 | `/photos/文件名.jpg` | GET | 照片 |
 | `/api/motor` | POST | `{"pwm":[左,0,右,0]}` |
 | `/api/ptz` | POST | `{"pan":90,"tilt":90}` |
@@ -39,4 +41,5 @@ GP0 的 `master_gp0_axi_aclk` 已接 `p2f_clk0`；PWM 参数 `CLK_HZ=49_995_000`
 云台两个角度都需为整数且在 0～180°。
 
 状态里的 `servo_control=true` 来自配置存在，不能作为位流识别探针。
+实时预览使用 `camera_capture /dev/video0 --stream`；Web 和采集程序必须同时更新。网页自动显示预览，支持关闭/开启；拍照保存共享的当前帧，不另开进程抢占摄像头。首次打开后采集进程持续运行，服务重启时一并释放。每个浏览器预览约限制为 10 FPS，实际帧率取决于 USB、曝光和网络。画面本身不持续写入 SD。
 在确认匹配的 `BOOT.bin` 已启动前，不要直接读写 GP0 地址试探设备是否存在。
